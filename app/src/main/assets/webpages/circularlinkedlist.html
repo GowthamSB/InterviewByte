@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        pre{
+        padding-top:16px;
+        padding-right:0px;
+        padding-bottom:16px;
+        padding-left:0px;
+        background-color:#111430;
+        color: #ffffff;
+        white-space: pre-wrap;
+        }
+
+
+    </style>
+
+</head>
+<body><h2>Circular Linked List</h2>
+<p>Circular Linked List is little more complicated linked data structure. In the circular linked list we can insert elements anywhere in the list whereas in the array we cannot insert element anywhere in the list because it is in the contiguous memory. In the circular linked list the previous element stores the address of the next element and the last element stores the address of the starting element. The elements points to each other in a circular way which forms a circular chain. The circular linked list has a dynamic size which means the memory can be allocated when it is required.</p>
+
+<h4>Application of Circular Linked List</h4>
+<ul class="content">
+    <li>The real life application where the circular linked list is used is our Personal Computers, where multiple applications are running. All the running applications are kept in a circular linked list and the OS gives a fixed time slot to all for running. The Operating System keeps on iterating over the linked list until all the applications are completed.
+    </li>
+    <li>Another example can be Multiplayer games. All the Players are kept in a Circular Linked List and the pointer keeps on moving forward as a player&apos;s chance ends.</li>
+    <li>Circular Linked List can also be used to create Circular Queue. In a Queue we have to keep two pointers, FRONT and REAR in memory all the time, where as in Circular Linked List, only one pointer is required.</li>
+</ul>
+<hr/>
+<h3>Implementing Circular Linked List</h3>
+<p>Implementing a circular linked list is very easy and almost similar to linear linked list implementation, with the only difference being that, in circular linked list the last <b>Node</b> will have it&apos;s <b>next</b> point to the <b>Head</b> of the List. In Linear linked list the last Node simply holds NULL in it&apos;s next pointer.</p>
+<p>So this will be oue Node class, as we have already studied in the lesson, it will be used to form the List.</p>
+<pre class="cpp">
+class <b>Node</b> {
+  public:
+  int data;
+  <i>//pointer to the next node</i>
+  node* next;
+
+  <b>node</b>() {
+    data = 0;
+    next = NULL;
+  }
+
+  <b>node</b>(int x) {
+    data = x;
+    next = NULL;
+  }
+}
+</pre>
+<hr>
+<h4>Circular Linked List</h4>
+<p>Circular Linked List class will be almost same as the Linked List class that we studied in the previous lesson, with a few difference in the implementation of class methods.</p>
+<pre class="cpp">
+class <b>CircularLinkedList</b> {
+  public:
+  node *head;
+  <i>//declaring the functions</i>
+
+  <i>//function to add Node at front</i>
+  int addAtFront(node *n);
+  <i>//function to check whether Linked list is empty</i>
+  int isEmpty();
+  <i>//function to add Node at the End of list</i>
+  int addAtEnd(node *n);
+  <i>//function to search a value</i>
+  node* search(int k);
+  <i>//function to delete any Node</i>
+  node* deleteNode(int x);
+
+  <b>CircularLinkedList</b>() {
+    head = NULL;
+  }
+}
+</pre>
+<hr/>
+<h4>Insertion at the Beginning</h4>
+<p>Steps to insert a Node at beginning :</p>
+<ol class="content">
+    <li>The first Node is the Head for any Linked List.</li>
+    <li>When a new Linked List is instantiated, it just has the Head, which is Null.</li>
+    <li>Else, the Head holds the pointer to the fisrt Node of the List.</li>
+    <li>When we want to add any Node at the front, we must make the head point to it.</li>
+    <li>And the Next pointer of the newly added Node, must point to the previous Head, whether it be NULL(in case of new List) or the pointer to the first Node of the List.</li>
+    <li>The previous Head Node is now the second Node of Linked List, because the new Node is added at the front.</li>
+</ol>
+<pre class="cpp">
+int CircularLinkedList :: <b>addAtFront</b>(node *n) {
+  int i = 0;
+  <i>/* If the list is empty */</i>
+  if(head == NULL) {
+    n<b>-></b>next = head;
+    <i>//making the new Node as Head</i>
+    head = n;
+    i++;
+  }
+  else {
+    n->next = head;
+    <i>//get the Last Node and make its next point to new Node</i>
+    Node* last = <b>getLastNode</b>();
+    last->next = n;
+    <i>//also make the head point to the new first Node</i>
+    head = n;
+    i++;
+  }
+  <i>//returning the position where Node is added</i>
+  return i;
+}
+</pre>
+<hr/>
+<h4>Insertion at the End</h4>
+<p>Steps to insert a Node at the end :</p>
+<ol class="content">
+    <li>If the Linked List is empty then we simply, add the new Node as the Head of the Linked List.</li>
+    <li>If the Linked List is not empty then we find the last node, and make it&apos; next to the new Node, and make the next of the Newly added Node point to the Head of the List.</li>
+</ol>
+<pre class="cpp">
+int CircularLinkedList :: <b>addAtEnd</b>(node *n) {
+  <i>//If list is empty</i>
+  if(head == NULL) {
+    <i>//making the new Node as Head</i>
+    head = n;
+    <i>//making the next pointer of the new Node as Null</i>
+    n<b>-></b>next = NULL;
+  }
+  else {
+    <i>//getting the last node</i>
+    node *last = <b>getLastNode</b>();
+    last<b>-></b>next = n;
+    <i>//making the next pointer of new node point to head</i>
+    n<b>-></b>next = head;
+  }
+}
+</pre>
+<hr/>
+<h4>Searching for an Element in the List</h4>
+<p>In searhing we do not have to do much, we just need to traverse like we did while getting the last node, in this case we will also compare the <b>data</b> of the Node. If we get the Node with the same data, we will return it, otherwise we will make our pointer point the next Node, and so on.</p>
+<pre class="cpp">
+node* CircularLinkedList :: <b>search</b>(int x) {
+  node *ptr = head;
+  while(ptr != NULL && ptr<b>-></b>data != x) {
+    <i>//until we reach the end or we find a Node with data x, we keep moving</i>
+    ptr = ptr<b>-></b>next;
+  }
+  return ptr;
+}
+</pre>
+<hr/>
+<h4>Deleting a Node from the List</h4>
+<p>Deleting a node can be done in many ways, like we first search the Node with <b>data</b> which we want to delete and then we delete it. In our approach, we will define a method which will take the <b>data</b> to be deleted as argument, will use the search method to locate it and will then remove the Node from the List.</p>
+<p>To remove any Node from the list, we need to do the following :</p>
+<ul class="content">
+    <li>If the Node to be deleted is the first node, then simply set the Next pointer of the Head to point to the next element from the Node to be deleted. And update the next pointer of the Last Node as well.</li>
+    <li>If the Node is in the middle somewhere, then find the Node before it, and make the Node before it point to the Node next to it.</li>
+    <li>If the Node is at the end, then remove it and make the new last node point to the head.</li>
+</ul>
+<pre class="cpp">
+node* CircularLinkedList :: <b>deleteNode</b>(int x) {
+  <i>//searching the Node with data x</i>
+  node *n = <b>search</b>(x);
+  node *ptr = head;
+  <b>if</b>(ptr == NULL) {
+    cout &lt;&lt; "List is empty";
+    return NULL;
+  }
+  <b>else if</b>(ptr == n) {
+    ptr<b>-></b>next = n<b>-></b>next;
+    return n;
+  }
+  <b>else</b> {
+    while(ptr<b>-></b>next != n) {
+      ptr = ptr<b>-></b>next;
+    }
+    ptr<b>-></b>next = n<b>-></b>next;
+    return n;
+  }
+}
+</pre>
+<hr>
+</body>
+</html>

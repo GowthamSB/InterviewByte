@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Online">
+            <menu>
+                <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home_black_24dp"/>
+        <item
+            android:id="@+id/nav_courses"
+            android:title="Courses"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:paddingBottom="25dp"/>
+        <item
+            android:id="@+id/nav_programming"
+            android:title="Programming"
+            android:icon="@drawable/ic_code_black_24dp"
+            />
+        <item
+            android:id="@+id/nav_questioning"
+            android:title="Questioning"
+            android:icon="@drawable/ic_search_black_24dp"/>
+
+
+        <item
+            android:id="@+id/nav_interview_skills"
+            android:title="Interview skills"
+            android:icon="@drawable/ic_school_black_24dp"/>
+        <item
+            android:id="@+id/nav_programming_contests"
+            android:title="Programming Contests"
+            android:icon="@drawable/trophy1"/>
+
+                    <item
+                        android:id="@+id/Online_Placement_papers"
+                        android:title="Placement Papers"
+                        android:icon="@drawable/file"/>
+
+                </group>
+            </menu>
+
+      </item>
+
+
+
+
+
+
+        <item android:title="Offline">
+            <menu>
+                <group android:checkableBehavior="single">
+            <item   android:id="@+id/offline_home"
+                    android:title="Offline Home"
+                    android:icon="@drawable/ic_home_black_24dp"/>
+
+            <item   android:id="@+id/tutorials"
+                    android:title="Tutorials"
+                android:icon="@drawable/ic_chevron_right_black_24dp"
+                    />
+
+            <item   android:id="@+id/technical"
+                    android:title="Technical Interview"
+                android:icon="@drawable/ic_chevron_right_black_24dp"
+                  />
+
+            <item   android:id="@+id/nontechnical"
+                    android:title="Non Technical"
+                android:icon="@drawable/ic_chevron_right_black_24dp"
+                    />
+
+                    <item   android:id="@+id/Placement_papers"
+                        android:title="Placement Papers"
+                        android:icon="@drawable/ic_chevron_right_black_24dp"
+                        />
+                </group >
+            </menu>
+        </item>
+
+
+
+
+</group>
+
+</menu>

@@ -1,0 +1,2315 @@
+<resources>
+    <string name="app_name">Interview Byte</string>
+    <string name="butterfly_html"><![CDATA[
+        <h1>Main Title</h1>
+        <h2>A sub-title</h2>
+        <p>This is some html. Look, here\'s an <u>underline</u>.</p>
+        <p>Look, this is <em>emphasized.</em> And here\'s some <b>bold</b>.</p>
+        <p>This is a UL list:
+        <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        </ul>
+        <p>This is an OL list:
+        <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        </ol>
+        ]]></string>
+    <string name="action_settings">Settings</string>
+    <string name="action_rating">Rate Us </string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="emailstring">%1$s</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Nerd Tech now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to send you password reset instructions.</string>
+    <string name="title_activity_settings">settings</string>
+    <string name="title_activity_main_activitynavigation">MainActivitynavigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="name">%s</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main_activity_navigation">MainActivityNavigation</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">This home</string>
+    <string name="Courses">This is courses fragment</string>
+    <string name="Interviewskills">This is interview fragment</string>
+    <string name="programming">This is Programming fragment</string>
+    <string name="programmingcontests">programming contests page</string>
+    <string name="questioning">Questioning fragment</string>
+    <!--Listview description of courses-->
+    <string name="description">description goes here</string>
+    <string name="edx">"Find the latest MOOC from the world's best universities including MIT, Harvard, Berkeley, UT and others"</string>
+    <string name="udacity">Video courses made by google reddit mongoDB etc., </string>
+    <string name="courseera">2000+ courses from schools like Stanford and Yale </string>
+    <string name="wibit"> Offers cutting edge programming and computer tutorials</string>
+    <string name="khanacademy">Learn how to program drawings, animations, and games</string>
+    <string name="geeks">A Computer Science portal for geeks</string>
+    <string name="tutorials">Free programming tutorials and reference manuals with examples </string>
+    <string name="study">Best place to learn Engineering subjects like Core Java, C++, DBMS and more </string>
+    <string name="quora">Quora is a place to share and gain knowledge</string>
+    <string name="stackover">The largest online community for programmers to learn, share their knowledge, and advance their careers</string>
+    <string name="ambition"> Helps you prepare awesomely for interviews! </string>
+    <string name="indiabix">Learn and practice Aptitude questions and answers with explanation for interviews</string>
+    <string name="spoj">It is an online judge system with over 315000 registered users and over 20000 problems</string>
+    <string name="breakinterview">Tutorials for C++, C, Java, PHP, SQL and many more. Tests and Interview Preparation</string>
+    <string name="interviewbit">Learn and Practice on almost all coding interview questions</string>
+    <string name="hackerrank">Solving code challenges and one of the best ways to prepare for programming interviews.</string>
+    <string name="hackerearth">Participate in online coding challenges and hackathons</string>
+    <string name="Leetcode">It is a platform for preparing technical coding interviews</string>
+    <string name="coderbyte">Coding  challenges</string>
+    <string name="programiz">Learn basics of C, C++ and python</string>
+    <string name="complex1">Big O notation is the most widely used method which describes algorithm complexity – the execution time required or the space used in memory or in disk by an algorithm. Often in exams or interviews, you will be asked some questions about algorithm complexity in the following form. For an algorithm that uses a data structure of size n, what is the runtime complexity or space complexity of the algorithm? The answer to such questions often uses big O notations to describe the algorithm complexity, such as O(1), O(n), O(n^2) or O(log(n)).</string>
+    <string name="complex1heading">An easy way to understand algorithm complexity and big O notation</string>
+    <string name="complexhead2">Big O for time complexity</string>
+    <string name="complexcontent2">Here we don’t want to discuss big O in a mathematical way. Basically, when analyzing the time complexity for an algorithm, big O notation is used to describe the rough estimate of the number of “steps” to complete the algorithm. Let’s take the following example:</string>
+    <string name="complexcontent3">Here let’s assume that doSomething() takes C steps to complete. The whole fun(n) method has 4 parts. What is the time complexity of each part for different parameters n ?\n For part1, it does doSomething() so it takes constant C steps. Here C is independent to the parameter n. When the time complexity is independent to the parameter, we use O(1) to mark it.
+        \n
+        \nFor part2, it does doSomething n times. Each time it takes C steps. So in total, it takes C x n steps to complete part2. Then as described above, we use O(1) to complete the C steps. Then for C x n, the complexity becomes n x O(1). Here, an important rule is that a x O(n) equals O(an). In such case, n x O(1) = O(n). So the time complexity of part2 is O(n).
+        \n
+        \nFor part3, it has two loops. The inner loop is exactly like part2. The outer loop does part2 n times again so the time complexity for part3 is n x O(n) which is O(n^2).
+        \n
+        \nFor part4, it takes exactly 1 step to return. So the time complexity is O(1).
+        \n
+        \nThen what is the total time complexity of the whole fun(n)? It is easy, we just need to add up the time complexity of all the 4 parts:
+        \n
+        \nO(1) + O(n) + O(n^2) + O(1)
+        \n
+        \nNow let’s assume n becomes very very large. For part1 and part4, they still take constant C+1 steps so the time running them could be ignored by part2 and part3, as now part2 and part3 take much longer time than part 1 and 4. Now if we compare part 2 and part 3. When n is 1, both part2 and part3 take C steps. When n is 3, part 2 takes 3C steps while part 3 takes 9C steps. When n is 1000, part 2 needs 1000C steps but part3 takes 1000000C steps! As n increases, the time complexity of part3 increases much quicker than part 2. When n becomes extremely large, the time of part2 can be ignored by the time of part3.
+        \n
+        \nSo here is another rule, when add up big O notations, the notation with slower increase speed could be ignored by the notation with faster increase speed. As we could see, O(1) does not increase at all so it could be ignored by O(n). O(n) is slower than O(n^2) so it could be ignored by O(n^2). Therefore, the complexity of the whole fun() is O(n^2)</string>
+    <string name="complexhead3">Rules summary of big O notations</string>
+        <string name="complexcontent4"><![CDATA[From the above examples, we could summarize the following rules:
+
+    \nFor multiplying two O notations, O(A) and O(B), the result is O(AB). For example:
+    \n
+    \nO(1) x O(n) = O(n).
+    \n
+    \nO(n) x O(n) = O(n^2).
+    \n
+    \nFor adding two O notations, O(A) and O(B), the result is to choose the one with the faster increase speed. For example:
+    \n
+    \nO(1) + O(n) = O(n).
+    \n
+    \nO(n) + O(n^2) = O(n^2).
+    \n
+    \nO(1) + O(n) + O(n^2) = O(n^2).
+    \n
+    \nHere is the comparison of the increase speed of different O notations:
+    \n
+    \nO(1) <  O(log(n)) <  O(n) < O(nlog(n)) < O(n^2)]]></string>
+    <string name="complexhead4">How to use big O notation to compare algorithm complexity and why</string>
+    <string name="complexcontent5">When comparing different algorithms, we often say the one with a “smaller” big O notation is more efficient. However, there are situations that algorithms with “larger” big O is faster. For example, there are two algorithms f1(n) and f2(n). f1(n) takes 100 steps and f2(n) takes n steps so f1(n) is O(1) and f2(n) is O(n). When n is less than 100, say n is 50, f1(n) takes 100 steps. f2(n) takes 50 steps so f2(n) is more efficient than f1(n). However, when n goes up to 10000, f2(n) takes 10000 steps while f1(n) takes only 100 steps so f1(n) becomes way more efficient. As the nature of large scale data in computer engineering, big O compares algorithms in the cases when the data is very large.</string>
+    <string name="complexhead5">Big O for space complexity</string>
+    <string name="Complexitycode1"><![CDATA[
+    \nvoid fun(int n) {
+ \n
+  \n \t\t// part1
+  \n\t\tdoSomething();
+  \n
+  \n\t\t// part2
+  \n\t\tfor(int j=0; j < n; j++)
+   \n\t\t\tdoSomething();
+    \n
+  \n\t\t// part3
+  \n\t\tfor(int i=0; i <  n; i++)
+    \n\t\t\tfor(int j=0; j < n; j++)
+      \n\t\t\t\tdoSomething();
+      \n
+  \n\t\t// part4
+  \n\t\treturn;\n
+}]]></string>
+    <string name="complexcontent6"><![CDATA[It is easier to understand using big O to estimate space complexity as it is more concrete. For example, in an algorithm, we need to create an array of size n to store the temporary results before getting the final result. If we assume that the size of the element in the array is a constant C which is independent to n, the space complexity for using the array is Cn which is O(n) x O(C) = O(n) x O(1) = O(n).
+        \n\nWhen comparing different algorithms, we often compare how much “extra” space complexity is needed to solve the problem. For example, as an algorithm that needs an extra array of size n is not as good as the one which only needs two variables, O(1) space complexity is more efficient than O(n).]]></string>
+    <string name="title_activity_sorting">Sorting</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="bubblesorthead">BUBBLE SORT</string>
+    <string name="bubbledesc">Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted. The algorithm, which is a comparison sort, is named for the way smaller or larger elements "bubble" to the top of the list. Although the algorithm is simple, it is too slow and impractical for most problems even when compared to insertion sort.It can be practical if the input is usually in sorted order but may occasionally have some out-of-order elements nearly in position.</string>
+    <string name="bubblecode1">func bubblesort( var a as array )\n
+                                \t\tfor i from 1 to N\n
+                                \t\t\tfor j from 0 to N - 1\n
+                                \t\t\t\tif a[j] > a[j + 1]\n
+                                \t\t\t\t\tswap( a[j], a[j + 1] )\n
+                                end func</string>
+    <string name="complexitybubble">\n
+        Best Case:	Ω(n)\n
+        Average Case:Θ(n^2)\n
+        Worst Case:	O(n^2)\n
+        Space Complexity:\n
+        Worst Case:	O(1)</string>
+    <string name="insertionsorthead">INSERTION SORT</string>
+    <string name="insertiondesc">Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. However, insertion sort provides several advantages.\n\nThe array is searched sequentially and unsorted items are moved and inserted into the sorted sub-list (in the same array). This algorithm is not suitable for large data sets as its average and worst case complexity are of Ο(n2), where n is the number of items.\n</string>
+    <string name="insertioncode1"><![CDATA[for i ← 1 to length(A)
+\n\t\t\tj ← i
+\n\t\t\twhile j > 0 and A[j-1] > A[j]
+\n\t\t\t\t\t\tswap A[j] and A[j-1]
+\n\t\t\t\t\t\tj ← j - 1
+\n\t\t\tend while
+\n\tend for]]></string>
+    <string name="complexityinsertion">\n
+        Best Case:Ω(n)\n
+        Average Case:Θ(n^2)\n
+        Worst Case:O(n^2)\n
+        Space Complexity:\n
+        Worst Case:	O(1)</string>
+    <string name="selectionhead">SELECTION SORT</string>
+    <string name="selectiondesc">
+Selection sort is a simple sorting algorithm. This sorting algorithm is an in-place comparison-based algorithm in which the list is divided into two parts, the sorted part at the left end and the unsorted part at the right end. Initially, the sorted part is empty and the unsorted part is the entire list.\n
+
+\nThe smallest element is selected from the unsorted array and swapped with the leftmost element, and that element becomes a part of the sorted array. This process continues moving unsorted array boundary by one element to the right.\n
+
+\nThis algorithm is not suitable for large data sets as its average and worst case complexities are of Ο(n2), where n is the number of items.</string>
+<string name="selectioncode1"><![CDATA[void selectionSort(int a[], int size)
+\n{
+\n  int i, j, min, temp;
+\n  for(i=0; i < size-1; i++ )
+\n {
+\n \t\t\t\t   min = i;   //setting min as i
+\n   \t\t\t\t for(j=i+1; j < size; j++)
+\n  \t\t\t\t  {
+\n    \t\t\t\t\t\t\t\t  if(a[j] < a[min])   //if element at j is less than element at min position
+\n    \t\t\t\t\t\t\t\t  {
+\n      \t\t\t\t\t\t\t\t\t\t\t\t min = j;    //then set min as j
+\n     \t\t\t\t\t\t\t\t }
+\n   \t\t\t\t }
+\n   temp = a[i];
+\n   a[i] = a[min];
+\n   a[min] = temp;
+\n  }
+\n}]]></string>
+<string name="complexityselection">\n
+        Best Case:Ω(n^2)\n
+        Average Case:Θ(n^2)\n
+        Worst Case:	O(n^2)\n
+        Space Complexity:\n
+        Worst Case:	O(1)</string>
+    <string name="mergehead">MERGE SORT</string>
+    <string name="mergedesc"><![CDATA[Merge Sort follows the rule of Divide and Conquer. But it doesn\'t divides the list into two halves. In merge sort the unsorted list is divided into N sublists, each having one element, because a list of one element is considered sorted. Then, it repeatedly merge these sublists, to produce new sorted sublists, and at lasts one sorted list is produced.\n
+
+\nMerge Sort is quite fast, and has a time complexity of O(n log n). It is also a stable sort, which means the "equal" elements are ordered in the same order in the sorted list.]]></string>
+
+<string name="mergecode1"><![CDATA[mergeSort(array, first, last):\n
+
+            //sort array[first] to array[last-1]\n
+            \nif last - first <= 1:
+			\n\t\t\t\treturn //if length 0 or 1 already sorted
+            \n
+            \nmid = (first + last)/2
+            \n
+            \n//recursive call 1
+            \nmergeSort(array, first, mid)
+            \n
+            \n//recursive call 2
+            \nmergeSort(array, mid, last)
+            \n
+            \n//merge array[first to mid-1]
+            \nmerge(array, first, mid-1):
+            \n
+            \n//merge array[mid to last-1]
+            \nmerge(array , mid, last-1):
+            \n\n//copy newarray to array[first to (last-1)]
+            \nleftpos = first
+            \nrightpos = mid
+            \nfor newpos from 0 to last-first:
+			\n\t\tif array[leftpos] <= array[rightpos]:
+			\n\t\t\t\tnewarray[newpos] = array[leftpos]
+			\n\t\tleftpos++
+			\n\t\telse:
+			\n\t\t\t\tnewarray[newpos] = array[rightpos]
+			\n\t\trightpos++
+			\nend:
+             ]]></string>
+    <string name="complexitymerge">\n
+        Best Case:	Ω(n log(n))\n
+        Average Case:Θ(n log(n))\n
+        Worst Case:O(n log(n))\n
+        Space Complexity:\n
+        Worst Case:	O(n)</string>
+    <string name="quickhead">QUICK SORT</string>
+<string name="quickdesc">Quick Sort, as the name suggests, sorts any list very quickly. Quick sort is not stable search, but it is very fast and requires very less aditional space. It is based on the rule of Divide and Conquer(also called partition-exchange sort). This algorithm divides the list into three main parts :\n
+
+			\n1.Elements less than the Pivot element
+			\n2.Pivot element
+			\n3.Elements greater than the pivot element\n
+			\nIn the list of elements, mentioned in below example, we have taken 25 as pivot. So after the first pass, the list will be changed like this.
+			\n
+			\n6 8 17 14 25 63 37 52
+			\n
+			\nHence after the first pass, pivot will be set at its position, with all the elements smaller to it on its left and all the elements larger than \nit on the right. Now 6 8 17 14 and 63 37 52 are considered as two separate lists, and same logic is applied on them, and we keep doing this until \nthe complete list is sorted.</string>
+    <string name="quickcode1"><![CDATA[\nQuicksort(A as array, low as int, high as int)
+            \n{
+            \nif (low < high)
+			\n	{
+            \n		\t\tpivot_location = Partition(A,low,high)
+            \n		\t\tQuicksort(A,low, pivot_location)
+            \n		\t\tQuicksort(A, pivot_location + 1, high)
+            \n	}
+            \n
+            \nPartition(A as array, low as int, high as int)
+			\n{
+            \n		\t\tpivot = A[low]
+            \n		\t\tleftwall = low
+            \n
+            \nfor i = low + 1 to high
+			\n	{
+            \n		\t\tif (A[i] < pivot) then
+			\n		\t\t{
+            \n			\t\t\t\tswap(A[i], A[leftwall])
+            \n			\t\t\t\tleftwall = leftwall + 1
+            \n		\t\t\t\t}
+            \n	}
+            \nswap(pivot,A[leftwall]);
+            \n
+            \nreturn (leftwall)
+            \n};]]></string>
+    <string name="complexityquick">\n
+        Best Case:		Ω(n log(n))\n
+        Average Case:	Θ(n log(n))\n
+        Worst Case:		O(n^2)\n
+        Space Complexity:\n
+        Worst Case:		O(log(n))</string>
+    <string name="heaphead">HEAP SORT</string>
+    <string name="heapdesc1">Heap Sort is one of the best sorting methods being in-place and with no quadratic worst-case scenarios. Heap sort algorithm is divided into two basic parts :\n\n
+
+1.Creating a Heap of the unsorted list.\n
+2.Then a sorted array is created by repeatedly removing the largest/smallest element from the heap, and inserting it into the array. The heap is reconstructed after each removal.\n\n
+
+What is a Heap ?\n
+
+\nHeap is a special tree-based data structure, that satisfies the following special heap properties :\n
+\n
+1.Shape Property : Heap data structure is always a Complete Binary Tree, which means all levels of the tree are fully filled.\n</string>
+    <string name="heapdesc2">2.Heap Property : All nodes are either [greater than or equal to] or [less than or equal to] each of its children. If the parent nodes are greater than their children, heap is called a Max-Heap, and if the parent nodes are smalled than their child nodes, heap is called Min-Heap.</string>
+    <string name="heaphead2">How Heap Works</string>
+    <string name="heapdesc3">Initially on receiving an unsorted list, the first step in heap sort is to create a Heap data structure(Max-Heap or Min-Heap). Once heap is built, the first element of the Heap is either largest or smallest(depending upon Max-Heap or Min-Heap), so we put the first element of the heap in our array. Then we again make heap using the remaining elements, to again pick the first element of the heap and put it into the array. We keep on doing the same repeatedly until we have the complete sorted list in our array.\n\n
+\n
+In the below algorithm, initially heapsort() function is called, which calls buildheap() to build heap, which inturn uses satisfyheap() to build the heap.</string>
+<string name="heapcode1"><![CDATA[\nMaxHeapify(A, i)
+            \n{
+			\n	\t\tl = left(i)
+			\n	\t\tr = right(i)
+            \nif l <= heap-size[A] and A[l] > A[i]
+            \n		\t\tlargest = l
+            \nelse
+			\n		\t\tlargest = i
+            \nif r <= heap-size[A] and A[r] > A[largest]
+            \n 	 	\t\tlargest = r
+            \n if largest != i
+            \n 		\t\tswap A[i] with A[largest]
+            \n MaxHeapify(A, largest)
+            \n}
+            \n\n
+            \nBuildMaxHeap(A)
+            \n{
+            \n		\t\theap-size[A] = length[A]
+            \n\t\tfor i = |length[A]/2| downto 1
+            \n		 \t\t\t\tMaxHeapify(A, i)
+			\n}
+            \n\n
+            \nHeapSort(A)
+            \n{
+            \n		\t\tBuildMaxHeap(A)
+            \n\t\tfor i = length[A] downto 2
+            \n		\t\t\t\tswap A[1] with A[i]
+            \n	\t\theap-size[A] = heap-size[A] – 1
+            \n	\t\tMaxHeapify(A, 1)
+            \n}]]></string>
+<string name="complexityheap">\n
+    Best Case:Ω(n log(n))\n
+    Average Case:Θ(n log(n))\n
+    Worst Case:O(n log(n))\n
+    Space Complexity:\n
+    Worst Case:O(1)</string>
+    <string name="binaryhead">Binary Search</string>
+    <string name="binarydesc"><![CDATA[Binary search is a very useful searching algorithm. In binary search, we look for an element x in a sorted array. Instead of searching the list in sequence, Binary Search starts by searching the middle point of the array. If the element is the target we are looking for, than return the element. If the middle element is less than the target, we know the target is in the left half so we could use the same method to search the left half. Otherwise we search the right half. By repeating this process, we could get the element without checking every element in the list.
+The time complexity for Binary search is O(log(n)).\n\nHere\'s the sample implementation in Java.\n]]></string>
+    <string name="binarycode"><![CDATA[\nint binarySearch(int[] arr,int target)
+\n{
+\n\t\t\t\tint low=0;
+\n\t\t\t\tint high=arr.length-1;
+\n\t\t\t\tint mid;
+\n\t\t\t\twhile(low <= high)
+\n\t\t\t\t{
+\n\\t\t\t\t\t\t\t\ttmid =(low+high)/2;
+\n\t\t\t\t\t\t\t\tif(arr[mid]< target)
+\n\t\t\t\t\t\t\t\t{
+\n\t\t\t\t\t\t\t\t\t\t\t\tlow=mid+1;
+\n\t\t\t\t\t\t\t\t}
+\n\t\t\t\t\t\t\t\telse if(arr[mid]>x)
+\n\t\t\t\t\t\t\t\t{
+\n\t\t\t\t\t\t\t\t\t\t\t\thigh=mid-1;
+\n\t\t\t\t\t\t\t\t}
+\n\t\t\t\t\t\t\t\telse
+\n\t\t\t\t\t\t\t\t{
+\n\t\t\t\t\t\t\t\t\t\t\t\treturn mid;
+\n\t\t\t\t\t\t\t\t}
+\n}// return -1 if not found return-1;}]]> </string>
+    <string name="binarydesc2">The below picture illustrates the steps of binary search.</string>
+    <string name="linearhead">LINEAR SEARCH</string>
+    <string name="lineardesc">In computer science, linear search or sequential search is a method for finding a target value within a list. It sequentially checks each element of the list for the target value until a match is found or until all the elements have been searched.</string>
+    <string name="linearcode">//Input: Array D, integer key
+\n// Output: returns i when found,
+\n//or -1 if not found
+\n
+\n
+\nfor i = 0 to last index of D:
+\n\t\t\t\tif D[i] equals key:
+\n\t\t\t\treturn i
+\nreturn -1 //if not found;\n</string>
+    <string name="complexitylinear">\n
+        Time Complexity:\n
+        Best Case: O(1)\n
+        Worst Case: O(n)\n
+        Average Case: O(n)\n
+        Space Complexity:\n
+        O(1) iterative</string>
+    <string name="title_activity_complexity">Complexity</string>
+    <string name="title_activity_offline_home">Offline_home</string>
+    <string name="title_activity_offline_tutorials">offline_tutorials</string>
+    <string name="title_activity_offline__interview">Offline_Interview</string>
+    <string name="Gdtopics"><![CDATA[\n
+        1.Brain-Drain Has To Be Stopped.\n\n
+2.Bullet For Bullet:Is it the right policy.\n\n
+3.Smart work or Hard work.\n\n
+4.Love marriage or Arrange marriage.\n\n
+5.Do we really need Smart City?\n\n
+6.Woman Empowerment.\n\n
+7.Caste based Reservation system is curse for India.\n\n
+8.Which is more important? College or Course.\n\n
+9.Science is a Boon or Bane.\n\n
+10.Are Women As good as Men or Inferior.\n\n
+11.Private or Government school.\n\n
+12.Are studies more beneficial in India or in Abroad.\n\n
+13.Is India moving away from a secularist state?\n\n
+14.Education and Success is there a co-relation.\n\n
+15.Idea to make India a superpower in 2020.\n\n
+16.Casteless India-A pipe dream.\n\n
+17.Is E-Commerce the best thing for India?\n\n
+18.Youth in politics.\n\n
+19.Social network Boon or Bane.\n\n
+20.Joint family vs Nuclear family.\n\n
+21.Gambling/Betting should be legalized in India!\n\n
+22.Is peace and non-violence is outdated concepts?\n\n
+23. Education is Business.\n\n
+24.should we change the present system of education in our country?\n\n
+25.Should tablets replace text books?\n\n
+26.Clean India - Attitude change is more important than the movement\n\n
+27.Jallikattu - The ban should continue!\n\n
+28.Hard work or Smart work - Which is important?\n\n
+29.Make in India Or Made in India\n\n
+30.India\'s huge population - bane or boon?\n\n
+31.Should Jawans take their problems to social media?\n\n
+32.Is India ready to go cashless?\n\n
+33.Should Hindi be the official language of India?\n\n
+34.Social networking on Internet is a boon.\n\n
+35.Do we really need Smart Cities?\n\n
+36.Extra curricular activities should be made compulsory in school\n\n
+37.Is the youth of India confident or confused?\n\n
+38.Should national anthem be played in cinema halls?\n\n
+39.Aviation require better engineer or management\n\n
+40.Save Wildlife-Need of the hour.\n\n
+41.Engineers Joining Management Is A National Waste.\n\n
+42.We are not serious about saving Wildlife.\n\n
+43.Liberalization is leading to jobless growth.\n\n
+44.Business Ethics – An Outlook.\n\n
+45.How To Deal With International Terrorism.\n\n
+46.Peace and Nonviolence is an outdated concept?\n\n
+47.Machine Over Man Or Man Over Machine.\n\n
+48.Indian Premier League- Has cricket lost its essence?\n\n
+49.Every Cloud Has A Silver Lining\n\n
+50.Rules are made to be broken.\n\n
+51.Eve-teasing – who is responsible?\n\n
+52.Chinese goods vs Indian Goods\n\n
+53.Is computerization causing unemployment?\n\n
+54.A Unipolar World spells disaster for underdeveloped countries like India\n\n
+55.Is dependence on computers a good thing?\n\n
+56.Is India a Soft Nation?\n\n
+57.Is it fair to call Hindutva to be the cultural identity of India?\n\n
+58.Now is the time to change the Juvenile Age..?\n\n
+59. Increasing no. of Engg. Colleges is a boon to society\n\n
+60.Universal Disarmament Is a Must.\n\n]]></string>
+
+    <string name="j1">1.What do you know about Java?\n\n
+
+Ans: Java is a object oriented programming language originally developed by Sun Microsystems and released in 1995 </string>
+    <string name="j2">2.What are the basic features of java?\n\n
+
+Ans: The basic features of Java are:\n
+-It is simple.\n
+-It provides immense security.\n
+-It is Object Oriented Programming language.\n
+-It is platform independent.\n
+-It  is portable.\n
+-It is multithreaded.\n
+-It is distributed.\n
+-It is architectural neutral.\n
+-It is dynamic.\n
+-It is robust.\n</string>
+    <string name="j3">3.Why is Java Architectural Neutral?\n\n
+
+Ans: Java is Architectural Neutral because it’s compiler generates an  architectural neutral object file format, which makes the compiled code to be executable on many processors, with the presence of Java runtime system.</string>
+	<string name="j4">4.What are the supported platforms by Java programming language?\n\n
+
+Ans: Java runs on a variety of platforms, such as Windows, Mac Os, and various version of UNIX/LINUX like Ubuntu, CentOs, Sun Solaris.</string>
+    <string name="j5">5.Why Java is considered as Dynamic?\n\n
+
+
+Ans: It is designed to adapt to an evolving environment.</string>
+    <string name="j6">6.What do you mean by Object?\n\n
+
+Ans: Object is a runtime entity and its state is stored in fields and behavior is shown via methods. Methods operate on an object’s internal state and serve as the primary mechanism for object-to-object communication.</string>
+	<string name="j7">7.List the three steps for creating an Object for a class?\n\n
+
+Ans: An Object is first declared, then instantiated and then it is initialized.</string>
+    <string name="j8">8.Define Class.\n\n
+
+
+Ans: A class is a blue print from which individual objects are created. A class can contain fields and methods to describe the behavior of an object.</string>
+    <string name="j9">9.What are the different kinds of variables a class can consist of?\n\n
+
+Ans: A class consist of Local variable, Instance variable and Class variable.</string>
+	<string name="j10">10.What is a Local variable?\n\n
+
+Ans: Variables defined inside methods, constructors or blocks are called local variables. These variables will declared and initialized within the method and it will be destroyed when the method has completed.</string>
+    <string name="j11">11.What is an Instance variable?\n\n
+
+Ans: Instance variable are variables within a class but outside any method. These variables are instantiated when the class is loaded.  </string>
+    <string name="j12">12.What is Class variable?\n\n
+
+Ans: These are variables declared with in a class, outside any method with the static keyword.</string>
+	<string name="j13">13.What is Singleton class?\n\n
+
+Ans: Singleton class control object creation. Limiting the number to one but allowing the flexibility to create more objects if the situation changes.</string>
+    <string name="j14">14.List two Java IDE’s?\n\n
+
+Ans: Netbeans, Eclipse, etc. </string>
+    <string name="j15">15.List some Java keywords that are not present in C, C++?\n\n
+
+Ans: import, super, finally, etc.</string>
+	<string name="j16">16.What is JVM?\n\n
+
+Ans: JVM-Java Virtual Machine, it is the java interpreter along with the runtime environment required to run the java application.</string>
+    <string name="j17">17.What is the most important feature of Java?\n\n
+
+Ans: Most important feature of Java is that it is platform independent language.</string>
+    <string name="j18">18.What do you mean by platform independence?\n\n
+
+Ans: Platform independence means that we can write and compile the java code in one platform (Eg: Windows) and can execute the class in any other supported platform (Eg: Linux).</string>
+	<string name="j19">19.Explain  the OOP concepts.\n\n
+
+Ans: -Polymorphism: Allow you to use an entity in multiple forms.\n
+- Inheritance: It is the process of creating a new class using the existing class.\n
+- Encapsulation: It binds together code and data it manipulates and keeps both safe from outside interference and misuse.\n
+ -Abstraction: It is the feature that hides the unnecessary information from the user and shows only the necessary information.\n </string>
+    <string name="j20">20.What is the primary benefit of Encapsulation?\n\n
+
+Ans: The main benefit of Encapsulation is the ability to modify our implemented code without breaking the code of others who use our code. With this Encapsulation gives maintainability, flexibility and extensibility to our code.</string>
+    <string name="j21">21.What is an Interface?\n\n
+
+Ans: An interface is a collection of abstract methods. A class implements an interface thereby inheriting the abstract methods of the interface. </string>
+	<string name="j22">22.Give some features of Interface?\n\n
+
+Ans: Features of interface:\n
+-Interface cannot be instantiated.\n
+-An interface does not contain any constructors.\n
+-All of the methods in an interface are abstract.\n</string>
+    <string name="j23">23.What is Package in Java?\n\n
+
+Ans: A Package is the grouping of related types (classes, interfaces, enumeration and annotations) providing access protection and name space management.</string>
+    <string name="j24">24.Why Packages are used in Java?\n\n
+
+Ans: Packages are used in Java in order to prevent naming conflicts, to control access, to make searching/locating and usage of classes, interfaces, annotations and enumerations easier.</string>
+	<string name="j25">25.Define Thread.\n\n
+
+Ans: A Thread is an independent path of execution within a program.</string>
+    <string name="j26">26.What do you mean by Daemon Thread?\n\n
+
+Ans: Daemon Threads are the low priority thread which runs in background and performs garbage collection operation for Java runtime system.</string>
+    <string name="j27">27.What do you mean by multithreaded program?\n\n
+
+Ans: A multithreaded program contains two or more parts that can run concurrently. Each part of such a program is called a thread, and each thread will be having its own execution path.
+</string>
+	<string name="j28">28.What are the two ways in which Thread can be created?\n\n
+
+Ans: Thread can be created by:\n
+-Implementing  Runnable interface\n
+-Extending the Thread class.\n</string>
+    <string name="j29">29.What is applet?\n\n
+
+Ans: It is dynamic and interactive program that runs inside a Web page displayed by a Java capable browser.  </string>
+    <string name="j30">30.An applet extends which class?\n\n
+
+Ans: An applet extends java.applet.Applet class.</string>
+	<string name="j31">31.What do you mean by Constructor?\n\n
+
+Ans: Constructor is a special method that has the same name as that of class and it is used to initialize the objects of the class.</string>
+    <string name="j32">32.What do you mean by Garbage collection?\n\n
+
+Ans: Garbage collection prevents the memory leaks by checking the unreferenced variable and objects and free-up them.</string>
+    <string name="j33">33.Define mutable and immutable object?\n\n
+
+Ans: mutable object: If a object value is changeable.\n
+\t\t\timmutable object: If it is impossible to change value.</string>
+	<string name="j34">34.Explain the usage of this() with constructor?\n\n
+
+Ans: It is used with variables or methods and used to call constructor of same class.</string>
+    <string name="j35">35.What do you mean by TreeSet?\n\n
+
+Ans: It is a Set implemented when we want elements in a sorted order.</string>
+    <string name="j36">36.what is an Exception?\n\n
+
+Ans: An exception is a problem that arises during the execution of a program.</string>
+	<string name="j37">37.What do you mean by Checked Exception?\n\n
+
+Ans: It is an exception that is typically a user error or a problem that cannot be foreseen by the programmer.
+Eg: If a file is to be opened, but the file cannot be found, an exception occurs.</string>
+    <string name="j38">38.How finally used under Exception Handling?\n\n
+
+Ans: A finally keyword is used to create a block of code that follows a try block. A finally block of code always executes whether or not an exception has occurred.</string>
+    <string name="j39">39.Difference between throw and throws?\n\n
+
+Ans: -Throw is used to trigger an exception where as throws is used in declaration of exception.\n
+-Without throws, Checked exception cannot be handled where as checked exception can be propagated with throws.</string>
+	<string name="j40">40.What is Java Runtime Environment?\n\n
+
+Ans: JRE is a set of software tools for development of Java applications. It combines the JVM, platform core classes and supporting libraries.</string>
+    <string name="j41">41.What is JAR file?\n\n
+
+Ans: JAR files is Java Archive files and it aggregate many files into one. It holds Java classes in a library. JAR files are built on ZIP file format and have .jar file extension.</string>
+    <string name="j42">42.Can a Constructor be made final?\n\n
+
+Ans: No, this is not possible.</string>
+	<string name="j43">43.Can you call one constructor from another if a class has multiple constructor?\n\n
+
+Ans: Yes, use this() syntax.</string>
+    <string name="j44">44.When Arithmetic exception is thrown?\n\n
+
+Ans: The Arithmetic Exception is thrown when integer is divided by zero or  taking the remainder of a number by zero.</string>
+    <string name="j45">45.What is Synchronization?\n\n
+
+Ans: It is the mechanism that ensures that only one thread is accessing the shared resources.</string>
+	<string name="j46">46.What is a transient variable?\n\n
+
+Ans: A transient variable that may not be serialized during Serilization and which is initialised by its default value during Deserialization.</string>
+    <string name="j47">47.Can try statements be nested?\n\n
+
+Ans: Yes.</string>
+    <string name="j48">48.What is the default value of float and double datatype in Java?\n\n
+
+Ans: Default value for float is 0.0f and for double it is 0.0d.</string>
+	<string name="j49">49.What do you mean by Access modifier?\n\n
+
+Ans: Java provides access modifiers to set access levels for classes, variables, methods and constructors.</string>
+    <string name="j50">50.Can variables be declared as Global in Java?\n\n
+
+Ans: No, because it breaks referential transparency and creates collision in namespaces.</string>
+    <string name="j51">51.Define Overloading and Overriding?\n\n
+
+Ans: Overloading: When two or more methods in a class having same name with different arguments.\n
+ Overriding: When two or more methods in a class having same name and with same arguments.\n</string>
+	<string name="j52">52.What is the purpose of finalization?\n\n
+
+Ans: The purpose of finalization is to give an unreachable object the opportunity to perform cleanup process.</string>
+    <string name="j53">53.What is Bytecode?\n\n
+
+Ans: Bytecode is the compiled format for java programs. Once a Java program has been converted to bytecode, it can be executed by JVM. Bytecode will be having .class extension.</string>
+    <string name="j54">54.What is JDBC?\n\n
+
+Ans: JDBC-Java Database Connection is a set of java API which can be used to interact with database. These API will consist of classes and interface to enable program to access the database.</string>
+	<string name="j55">55.Name the types of JDBC Driver.\n\n
+
+Ans: -Type 1 JDBC-to-ODBC Driver\n
+-Type 2 Java/native code Driver\n
+-Type 3 JDBC Driver\n
+-Type 4 JDBC Driver.\n</string>
+    <string name="j56">
+56.Name the steps involved in JDBC process.\n\n
+
+Ans: -Loading the JDBC driver\n
+-Connecting to the DBMS\n
+-Create and Execute a SQL statement\n
+-Process the data returned by the DBMS\n
+-Terminate the connection to the DBMS.\n</string>
+    <string name="j57">57.Define JSP.\n\n
+
+Ans: JSP-Java Server Page, is a technology that helps software developers create dynamically generated wed pages based on HTML, XML, or other document types.</string>
+	<string name="j58">58.Define Cookie.\n\n
+
+Ans: A cookie is small piece of information created by a JSP program that is stored on the clients hard disk by the browser.</string>
+
+    <string name="j59">59.Define Servlet.\n\n
+
+Ans: Servlet is a web-technology from sun microsystem which will be used to develop web based application. Servlet will be used to develop server side components.</string>
+
+    <string name="hrinterview"><![CDATA[
+
+
+
+<p><b>1)Did you face any difficulty in finding this place?</b><br><br>
+
+Ans:The interviewer usually asks this question to initiate the talk and put the candidate to ease. You can smile and answer this question by saying:It wasn\'t difficult to find this palce.<br><br>
+
+<b>2)Hello, how are you today?</b><br><br>
+
+Ans:This is more of a make yourself comfortable statement. Answer with a pleasant smile, I am very well today sir/madam, thank you. If you had any problem during the day, don\’t hesitate to mention it. But make sure you express it in a positive note.<br><br>
+
+
+<b>3)Tell me something about yourself?</b><br><br>
+
+Ans:This is the most commonly asked question in any interview. Include details like:Your education background,information about your family-father\'s profession,mother\'s profession,number of siblings and you may provide information about your extracurricular activities.<br><br>
+
+<b>4)Why should i hire you?</b><br><br>
+
+Ans:A company will want to hire you if you can add some value to it . So focus your answer on your skills and how they can be helpful for the position you are being interviewed for. Also, tell them about your ability like quick learner, team player, self-motivated. These are the qualities that employers  usually seek in a fresh graduate.<br><br>
+
+
+
+
+<b>5)Are you an introvert or extrovert?</b><br><br>
+
+Ans:Being on either of the extremes at the work can be bad for you and the company. Your behaviour at work should be based upon the situation.
+Eg:If i am representing the company at an event which requires me to talk to a lot of people, i become an extrovert while if there is some serious issue under discussion, I become introvert. <br><br>
+
+<b>6)Why does this role interest you?/ why have you applied for this job?</b><br><br>
+
+Ans:The purpose of this question is to see if you are really interested in this job or you applied to this job just because you are jobless. Relate the job requirements with your candidature and explain why do you believe you are a suitable candidate for this job.<br><br>
+
+
+<b>7)What do you want to achieve in the next 8 years?</b><br><br>
+
+Ans:This answer shows your ability to make plans for yourself. Say you would like to acquire certain skills and move up the ladder.<br><br>
+
+<b>8)Would you be open to change your project/profile when required?</b> <br><br>
+
+Ans:This is very important for a company, they want employees who are willing to change roles to meet bussiness demands, so the typical answer here is YES. Say I understand it will be in best interest of the bussiness, if my manager wants me to develop my skills and take up another role. <br><br>
+
+
+<b>9)Are you planning to go for further studies?</b><br><br>
+
+Ans:This answer needs to be answered tactfully, they want to know whether you are going to stay for long or you are just there to use their training resources and then say goodbye in 6 months time.<br>
+-If you are pursuing further studies, say so. Tell them why you want to go for that course.<br>
+-If you are taking up a distance education course or a part time course, they should know, as you will need to take leaves when you want to appear for exams.<br><br>
+
+<b>10)Tell me something about yourself that is not written in your resume</b><br><br>
+
+Ans:If you missed out on some points while writing your resume this is your chance to discuss them:<br>
+-While talking about yourself, be confident.<br>
+-You could discuss some achievements.<br><br>
+
+
+<b>11)What skills do you want to develop to succeed in this role?</b><br><br>
+
+Ans:Again talk about some key skills that are necessary for the role, this will show them that you are ready to learn and are aware of your shortcomings.<br>
+Tell them that you are, as a fresher, have the ability but require formal training to enhance your skills for a professional environment.<br><br>
+
+<b>12)Do you know anyone who works with this company?</b><br><br>
+
+Ans:It is fine if you do not know anyone, but if you know it will be good to give out the name.<br><br>
+
+<b>13)What is your greatest achievement?</b><br><br>
+
+
+
+Ans:I stood first in the order of merit in class  Xth sounds like you haven’t achieved anything big since then.  Find out something from the near past that makes you proud of yourself. If you don’t find an answer to this question in your profession or academic life, it is absolutely fine to offer an answer from your social life.<br>
+
+For eg: I managed to save the life of an accident struck stranger by taking him to hospital on time and donating a bottle of blood for him.<br><br>
+
+
+
+<b>14)What are your weaknesses?</b><br><br>
+
+Ans:This is tricky question. The expectation here is to answer a negative trait with a positive twist. Something which is general a weak point of a person, but is alright from an organization perspective.<br>
+
+Eg:I tend to say YES, when someone asks for help. I am working on learning to say NO  at times.<br><br>
+
+
+<b>15)What was your biggest mistake?</b><br><br>
+
+
+
+Ans:To answer this question try to find out mistake you did long back. It demonstrates that you have not committed a mistake as big as that since then.<br><br>
+
+<b>16)You do not have all the experience we are seeking for this position. Then why should I hire you?</b><br><br>
+
+Ans:As a fresher you will not have much experience of working on various projects and even employers are aware about it. Offer your ability to grasp new things quickly as a solution to this.<br><br>
+
+
+
+
+<b>17)Where do you see yourself 5 years from now?</b><br><br>
+
+
+Ans:The purpose of the question is to see if the candidate is ambitious enough to grow. Recruiting a candidates is a time consuming and costly affair so they also want to see if the candidate is over ambitious to stay in the company for long.<br>
+You can say something like % years down the line I would like to see myself in a responsible position where I can make important decisions for company and the company treats me as its assets. I  am sure that this company can offer me such growth opportunities.<br><br>
+
+
+<b>18)Are you speaking to some other companies? Or how is your job search going on?</b></b><br><br>
+
+Ans:The purpose of this question is to see if other companies are also interested in hiring you. If  you are discussion in discussion with some other companies you can say, Yes, I am in discussion with some other companies and waiting for the results.<br><br>
+
+<b>19)Which companies are you talking to?</b><br><br>
+
+Ans:This can be the very obvious next question you may face. If you are not comfortable in revealing the names of the companies you can simply say, I respect the confidentiality of those companies so I would not like to name them in the interview.<br><br>
+
+<b>20)Why haven\’t you got job yet?</b><br><br>
+
+Ans:This question will usually arise if it has been sometime since you finished your studies  and are still in the market without a job.<br>
+You can say that, I have been offered some tempting positions in the last few days but had to turn them down as I did not find them right for my candidature. You can follow it up with some example.<br><br>
+
+
+<b>21)Are you ready to relocate?</b><br><br>
+
+Ans:Say yes only if you are ready. The employer might be planning to recruit you for a position in some other city or might have a plan to shift you after some months. Giving them a false hope will not be good on your part professionally.<br><br>
+
+
+
+<b>22)How do you feel about doing repetitive work?</b><br><br>
+
+Ans:Any job you take up will have an element of redundancy and the interviewer wants to see if you get bored of it. You can say something like: I like to do creative work but I also know that any job has an element of redundancy. So, it is fine with me.<br><br>
+
+<b>23)Are there any kind of people you can not work with?</b><br><br>
+
+Ans:Most of the work these days requires you to work in teams. This needs you to be able to adjust with all type of people. So, you can say something like, I am fine with working all type of people as long as they are sincere to their work.<br><br>
+
+<b>24)How many local trains run in Mumbai?</b><br><br>
+
+Ans:Even the hr may not know the answer to such questions. The purpose of asking them is to see your reaction when you are asked unexpected things. To deal with such a question, you can start thinking aloud in a logical way and offer an answer.<br>
+This demonstrate your logical abilities.<br><br>
+
+
+
+<b>25)Suppose you win a huge money in jackpot, would you still work?</b><br><br>
+
+Ans:Few tricky question like this might be thrown at you during HR interviews. These are not make-or-break your chances type of questions, however, it is wise to take such a light hearted questions, in its light hearted manner. You can say like:<br>
+-Never really thought about it….maybe I will invest the money in some startups and still be working. <br><br>
+
+<b>26)If you face a problem with your own performance, what would you do?</b><br><br>
+
+
+Ans:Your answer to this question signifies whether you can identify problems with yourself or not. So,   you can say something like:If I see a problem with my own performance, I\’ll try to find out and analyse the factors behind it and work on each of them.<br><br>
+
+<b>27)In a catastrophic situation like fire what you will do?</b><br><br>
+
+Ans:The purpose here again is to see your reaction in such situations. They do not expect you do to anything heroic. You can say something like: First of all I\’ll ensure my safety and immediately I will inform the fire department of the city to come to help. If I am in the position to help some people, I’ll definitely do that.<br><br>
+
+<b>28)What are your hobbies and interests?</b><br><br>
+
+Ans:You cannot say, you don\’t have any other interests, other than academics. Even if you are very studious, your answer should include reading non-textbooks. A company looks for candidates who are more rounded and keeps diverse interests in life.  Identify one of your interests other than academics and prepare answer based on that.<br><br>
+
+
+<b>29)Who is the most  inspiring person in your life?</b><br><br>
+
+Ans:Mention the name and say why he/she is the inspiring person. <br><br>
+
+<b>30)How much salary do you expect?</b><br><br>
+
+Ans:As a fresher you will usually not have much bargaining power in terms of salary. You can say like:As per company standards for fresher.<br><br>
+
+<b>31)Do you have any other offer at hand?</b><br><br>
+
+Ans:This is usually a closing question and they might want to know how actively you are looking for a job. Usually give an honest answer and say why you are looking for another job with that offer at hand.<br><br>
+
+<b>32)What will you do if you are offered a job with a salary higher than this?</b><br><br>
+
+Ans:A company will not want to hire a candidate who will switch the job for a couple of  thousands.<br>
+To answer this question you can say something like, I know that attraction of money but at this point in time growth is more important for me. In such a situation, I\’ll discuss the growth opportunities with my manager and analyze the situation. If I see a growth potential in the same company, I will continue to work. However if I don\’t see any further growth, I\’ll humbly inform him about my decision to move on.<br><br>
+
+<b>33)What do you know about our company? Or What is one thing that you like about our company?</b></b><br><br>
+
+Ans:Always know about the company before choosing your answer. A wrong line of your answer could cost you the job itself..<br>
+This demonstrates your interest.<br><br>
+
+<b>34)Do you want to ask us something about the company?</b><br><br>
+
+Ans:Not asking any questions back demonstrates lack of interest in the job, dullness or research about the company.<br>
+When you are asked this question, you can ask some  questions like:<br>
+- The opportunities for  you to grow in the company.<br>
+-If the company encourages learning and development of employees.<br>
+-Expansion plans.<br>
+-You can also discuss your role in detail.<br><br></p>]]></string>
+    <string name="simple"><b>hekllodid</b><i>hheh</i></string>
+
+
+
+    <string name="DS">
+
+
+<![CDATA[<p><b>1.What is  a  Data Structure ?</b><br><br>
+Ans:Data structure is a way of defining, storing & retriving of data in a structural & systemetic way.<br>
+A data structure may contain different type of data items.<br><br>
+
+<b>2.What are some data structures available ?</b><br><br>
+Ans:Data structure availability may vary by programming languages.<br>
+
+Commonly available data structures are list, arrays, stack, queues, graph, tree etc.<br><br>
+
+
+<b>3.Why do we need algorithm analysis ?</b><br><br>
+Ans:A problem can be solved in more than one ways.<br>
+
+So, many solution algorithms can be derived for a given problem.<br>
+
+We analyze available algorithms to find and implement the best suitable algorithm.<br><br>
+
+
+<b>4.What are the criteria of algorithm analysis?</b><br><br>
+Ans:An algorithm are generally analyzed on two factors − time and space.<br>
+
+That is, how much execution time and how much extra space required by the algorithm.<br><br>
+
+
+<b>5.What is asymptotic analysis of an algorithm?</b><br><br>
+Ans:Asymptotic analysis of an algorithm, refers to defining the mathematical boundation/framing of its run-time performance.<br>
+
+Using asymptotic analysis, we can very well conclude the best case, average case and worst case scenario of an algorithm.<br><br>
+
+
+<b>6.What are asymptotic notations?</b><br><br>
+Ans:Asymptotic analysis can provide three levels of mathematical binding of execution time of an algorithm :-<br>
+
+- Best case is represented by Ο(n) notation.<br>
+
+- Worst case is represented by Ω(n) notation.<br>
+
+- Average case is represented by Θ(n) notation.<br><br>
+
+
+
+<b>7.What is linear data structure ?</b><br><br>
+Ans:A linear data-strucutre has sequentially arranged data items.<br>
+
+The next time can be located in the next memory address.<br>
+
+It is stored and accessed in a sequential manner.<br>
+
+Array and list are example of linear data structure.<br><br>
+
+
+<b>8.What are common operations that can be performed on a data-structure ?</b><br><br>
+Ans:The following operations are commonly performed on any data-structure :-<br><br>
+
+- Insertion : adding a data item<br><br>
+
+- Deletion : removing a data item<br><br>
+
+- Traversal : accessing and/or printing all data items<br><br>
+
+- Searching : finding a particular data item<br><br>
+
+- Sorting : arranging data items in a pre-defined sequence<br><br>
+
+
+<b>9.Briefly explain the approaches to develop algorithms.</b><br><br>
+Ans:There are three commonly used approaches to develop algorithms :-<br><br>
+
+- Greedy Approach : finding solution by choosing next best option.<br><br>
+
+- Divide and Conquer : diving the problem to a minimum possible sub-problem and solving them independently.<br><br>
+
+- Dynamic Programming : diving the problem to a minimum possible sub-problem and solving them combinedly.<br><br>
+
+
+<b>10.Give some examples of Greedy Algorithm.</b><br><br>
+Ans:The below given problems find their solution using greedy algorithm approach :-<br><br>
+
+- Travelling Salesman Problem<br><br>
+
+- Prim\'s Minimal Spanning Tree Algorithm<br><br>
+
+- Kruskal\'s Minimal Spanning Tree Algorithm<br><br>
+
+- Dijkstra\'s Minimal Spanning Tree Algorithm<br><br>
+
+- Graph - Map Coloring<br><br>
+
+- Graph - Vertex CoverKnapsack Problem<br><br>
+
+- Job Scheduling Problem<br><br>
+
+
+<b>11.What are some examples of divide and conquer algorithms?</b><br><br>
+Ans:The below given problems find their solution using divide and conquer algorithm approach :-<br><br>
+
+- Merge Sort<br><br>
+
+- Quick Sort<br><br>
+
+- Binary Search<br><br>
+
+- Strassen\'s Matrix Multiplication<br><br>
+
+- Closest pair (points)<br><br>
+
+
+
+<b>12.What are some examples of dynamic programming algorithms?</b><br><br>
+Ans:The below given problems find their solution using divide and conquer algorithm approach :-<br><br>
+
+- Fibonacci number series<br><br>
+
+- Knapsack problem<br><br>
+
+- Tower of Hanoi<br><br>
+
+- All pair shortest path by Floyd-Warshall<br><br>
+
+- Shortest path by Dijkstra<br><br>
+
+- Project scheduling<br><br>
+
+
+<b>13.What is a linked list ?</b><br><br>
+Ans:A linked-list is a list of data-items connected with links i.e. pointers or references.<br>
+
+Most modern high-level programming language does not provide the feature of directly accessing memory location, therefore, linked-list are not supported in them or available in form of inbuilt functions.<br><br>
+
+
+<b>14.What is stack?</b><br><br>
+Ans:In data-structure, stack is an Abstract Data Type (ADT) used to store and retrieve values in Last In First Out method.<br><br>
+
+
+<b>15.Why do we use stacks?</b><br><br>
+Ans:Stacks follows LIFO method and addition and retrieval of a data item takes only Ο(n) time.<br><br>
+
+Stacks are used where we need to access data in the reverse order or their arrival.<br><br>
+
+Stacks are used commonly in recursive function calls, expression parsing, depth first traversal of graphs etc.<br><br>
+
+
+<b>16.What operations can be performed on stacks?</b><br><br>
+Ans:The below operations can be performed on a stack :-<br><br>
+
+- push() : adds an item to stack<br><br>
+
+- pop() : removes the top stack item<br><br>
+
+- peek() : gives value of top item without removing it<br><br>
+
+- isempty() : checks if stack is empty<br><br>
+
+- isfull() : checks if stack is full<br><br>
+
+
+<b>17.What is a queue in data structure ?</b><br><br>
+Ans:Queue is an abstract data structure, somewhat similar to stack. In contrast to stack, queue is opened at both end.<br><br>
+
+One end is always used to insert data (enqueue) and the other is used to remove data (dequeue).<br><br>
+
+Queue follows First-In-First-Out methodology, i.e., the data item stored first will be accessed first.<br><br>
+
+
+<b>18.Why do we use queues?</b><br><br>
+Ans:As queues follows FIFO method, they are used when we need to work on data-items in exact sequence of their arrival.<br><br>
+
+Every operating system maintains queues of various processes.<br><br>
+
+Priority queues and breadth first traversal of graphs are some examples of queues.<br><br>
+
+
+<b>19.What operations can be performed on Queues?</b><br><br>
+Ans:The below operations can be performed on a stack :-<br><br>
+
+- enqueue() : adds an item to rear of the queue<br><br>
+
+- dequeue() : removes the item from front of the queue<br><br>
+
+- peek() : gives value of front item without removing it<br><br>
+
+- isempty() : checks if stack is empty<br><br>
+
+- isfull() : checks if stack is full<br><br>
+
+
+<b>20.What is linear searching?</b><br><br>
+Ans:Linear search tries to find an item in a sequentially arranged data type.<br><br>
+
+These sequentially arranged data items known as array or list, are accessible in incrementing memory location. Linear search compares expected data item with each of data items in list or array.<br><br>
+
+The average case time complexity of linear search is Ο(n) and worst case complexity is Ο(n2).<br><br>
+
+Data in target arrays/lists need not to be sorted.<br><br>
+
+
+<b>21.What is binary search ?</b><br><br>
+Ans:A binary search works only on sorted lists or arrays.<br><br>
+
+This search selects the middle which splits the entire list into two parts.<br><br>
+
+First the middle is compared.<br><br>
+
+This search first compares the target value to the mid of the list.<br><br>
+
+If it is not found, then it takes decision on whether.<br><br>
+
+
+<b>22.What is bubble sort and how bubble sort works?</b><br><br>
+Ans:Bubble sort is comparison based algorithm in which each pair of adjacent elements is compared and elements are swapped if they are not in order.<br><br>
+
+Because the time complexity is Ο(n2), it is not suitable for large set of data.<br><br>
+
+
+<b>23.Tell me something about \'insertion sort\'?</b><br><br>
+Ans:Insertion sort divides the list into two sub-list, sorted and unsorted.<br><br>
+
+It takes one element at time and finds it appropriate location in sorted sub-list and insert there.<br><br>
+
+The output after insertion is a sorted sub-list.<br><br>
+
+It iteratively works on all the elements of unsorted sub-list and inserts them to sorted sub-list in order.<br><br>
+
+
+<b>24.What is selection sort ?</b><br><br>
+Ans:Selection sort is in-place sorting technique.<br><br>
+
+It divides the data set into two sub-lists : sorted and unsorted.<br><br>
+
+Then it selects the minimum element from unsorted sub-list and places it into the sorted list.<br><br>
+
+This iterates unless all the elements from unsorted sub-list are consumed into sorted sub-list.<br><br>
+
+
+
+<b>25.How insertion sort and selection sorts are different?</b><br><br>
+Ans:Both sorting techniques maintains two sub-lists, sorted and unsorted and both take one element at a time and places it into sorted sub-list.<br><br>
+
+Insertion sort works on the current element in hand and places it in the sorted array at appropriate location maintaining the properties of insertion sort.<br><br>
+
+Whereas, selection sort searches the minimum from the unsorted sub-list and replaces it with the current element in hand.<br><br>
+
+
+<b>26.What is merge sort and how it works?</b><br><br>
+Ans:Merge sort is sorting algorithm based on divide and conquer programming approach.<br><br>
+
+It keeps on dividing the list into smaller sub-list until all sub-list has only 1 element.<br><br>
+
+And then it merges them in a sorted way until all sub-lists are consumed.<br><br>
+
+It has run-time complexity of Ο(n log n) and it needs Ο(n) auxiliary space.<br><br>
+
+
+<b>27.What is shell sort?</b><br><br>
+Ans:Shell sort can be said a variant of insertion sort.<br><br>
+
+Shell sort divides the list into smaller sublist based on some gap variable and then each sub-list is sorted using insertion sort.<br><br>
+
+In best cases, it can perform upto Ο(n log n).<br><br>
+
+
+
+<b>28.How quick sort works?</b><br><br>
+Ans:Quick sort uses divide and conquer approach.<br><br>
+
+It divides the list in smaller \'partitions\' using \'pivot\'.<br><br>
+
+The values which are smaller than the pivot are arranged in the left partition and greater values are arranged in the right partition.<br><br>
+
+Each partition is recursively sorted using quick sort.<br><br>
+
+
+<b>29.What is a graph?</b><br><br>
+Ans:A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links.<br><br>
+
+The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.<br><br>
+
+
+<b>30.How depth first traversal works?</b><br><br>
+Ans:Depth First Search algorithm(DFS) traverses a graph in a depthward motion and uses a stack to remember to get the next vertex to start a search when a dead end occurs in any iteration.<br><br>
+
+
+<b>31.How breadth first traversal works?</b><br><br>
+Ans:Breadth First Search algorithm(BFS) traverses a graph in a breadthwards motion and uses a queue to remember to get the next vertex to start a search when a dead end occurs in any iteration.<br><br>
+
+
+<b>32.What is a tree?</b><br><br>
+Ans:A tree is a minimally connected graph having no loops and circuits.<br><br>
+
+<b>33.What is a binary tree?</b><br><br>
+Ans:A binary tree has a special condition that each node can have two children at maximum.<br><br>
+
+<b>34.What is a binary search tree?</b><br><br>
+Ans:A binary search tree is a binary tree with a special provision where a node\'s left child must have value less than its parent\'s value and node\'s right child must have value greater than it\'s parent value.<br><br>
+
+
+
+<b>35.What is tree traversal?</b><br><br>
+Ans:Tree traversal is a process to visit all the nodes of a tree. Because, all nodes are connected via edges (links) we always start from the root (head) node.<br><br>
+
+There are three ways which we use to traverse a tree :-<br><br>
+
+- In-order Traversal<br><br>
+
+- Pre-order Traversal<br><br>
+
+- Post-order Traversal<br><br>
+
+
+<b>36.What is an AVL Tree?</b><br><br>
+Ans:AVL trees are height balancing binary search tree.<br><br>
+
+AVL tree checks the height of left and right sub-trees and assures that the difference is not more than 1. This difference is called Balance Factor.<br><br>
+
+
+<b>37.What is a spanning tree ?</b><br><br>
+Ans:A spanning tree is a subset of Graph G, which has all the vertices covered with minimum possible number of edges.<br><br>
+
+A spanning tree does not have cycles and it can not be disconnected.<br><br>
+
+<b>38.How many spanning trees can a graph has?</b><br><br>
+Ans:It depends on how connected the graph is.<br><br>
+
+A complete undirected graph can have maximum n^(n-1) number of spanning trees, where n is number of nodes.<br><br>
+
+
+<b>39.How Kruskal\'s algorithm works?</b><br><br>
+Ans:This algorithm treats the graph as a forest and every node it as an individual tree.<br><br>
+
+A tree connects to another only and only if it has least cost among all available options and does not violate MST properties.<br><br>
+
+
+<b>40.How Prim\'s algorithm finds spanning tree?</b><br><br>
+Ans:Prim\'s algorithm treats the nodes as a single tree and keeps on adding new nodes to the spanning tree from the given graph.<br><br>
+
+
+
+<b>41.What is a minimum spanning tree (MST) ?</b><br><br>
+Ans:In a weighted graph, a minimum spanning tree is a spanning tree that has minimum weight that all other spanning trees of the same graph.<br><br>
+
+<b>42.What is a heap in data structure ?</b><br><br>
+Ans:Heap is a special balanced binary tree data structure where root-node key is compared with its children and arranged accordingly.<br><br>
+
+A min-heap, a parent node has key value less than its childs and a max-heap parent node has value greater than its childs.<br><br>
+
+<b>43.What is a recursive function?</b><br><br>
+Ans:A recursive function is one which calls itself, directly or calls a function that in turn calls it.<br><br>
+
+Every recursive function follows the recursive properties − base criteria where functions stops calling itself and progressive approach where the functions tries to meet the base criteria in each iteration.<br><br>
+
+
+<b>44.What is fibonacci series?</b><br><br>
+Ans:Fibonacci Series generates subsequent number by adding two previous numbers.<br><br>
+
+For example, 0 1 1 2 3 5 8 13.<br><br>
+
+
+<b>45.What is interpolation search technique?</b><br><br>
+Ans:Interpolation search is an improved variant of binary search.<br><br>
+
+This search algorithm works on the probing position of required value.<br><br>
+
+
+<b>46.What is hashing ?</b><br><br>
+Ans:Hashing is a technique to convert a range of key values into a range of indexes of an array.<br><br>
+
+By using hash tables, we can create an associative data storage where data index can be find by providing its key values.<br><br>
+
+
+<b>47.What is tower of hanoi ?</b><br><br>
+Ans:Tower of Hanoi, is a mathematical puzzle which consists of three tower (pegs) and more than one rings.<br><br>
+
+All rings are of different size and stacked upon each other where the large disk is always below the small disk.<br><br>
+
+The aim is to move the tower of disk from one peg to another, without breaking its properties.<br><br>
+
+
+
+<b>48.What is the prefix and post fix notation of (a + b) * (c + d) ?</b><br><br>
+Ans:- Prefix Notation : * + a b + c d<br><br>
+
+- Postfix Notation : a b + c d + *<br><br>
+
+
+<b>49.Have you ever worked on a Data Structure project ?</b><br><br>
+Ans:- Mention project and advantages of the same<br><br>
+
+- Mention the concepts learned<br><br><p>]]>
+
+
+
+
+
+
+</string>
+
+    <string name="cprogs" formatted="false">
+
+<![CDATA[<p><b>1.What is meant by programming language and give some examples?</b><br><br>
+
+</b>Ans: Programming language is nothing but a language designed to communicate to machines through instructions and commands. Normally machines are computers.
+ Eg:C, C++, Java.<br><br>
+<b>2.What is C language?</b><br><br>
+
+Ans: C language is a structure/procedure oriented, middle level programming language developed at Bell Laboratories in 1972 by Dennis Ritchie.<br><br>
+<b>3.Who is the father of C?</b><br><br>
+
+Ans: Dennis Ritchie is the father of C.<br><br>
+
+
+<b>4.What is the difference between C and C++?</b><br><br>
+
+Ans: Difference between C and C++ are:<br>
+-C is structure/procedure oriented programming language whereas C++ is object oriented programming language.<br>
+-C language design is top down approach whereas C++ is using Bottom up approach.<br>
+-C language gives importance to function rather than data. Whereas C++ gives importance to data rather than functions.<br><br>
+
+<b>5.What are the applications of C programming language?</b><br><br>
+
+Ans: C language is used to develop system application that forms major portion of operating systems such as Windows, UNIX and Linux. Operating systems, C compiler and all UNIX application programs are written in C language.<br><br>
+
+
+<b>6.What is the difference between top down approach and bottom up approach in programming languages?</b><br><br>
+
+
+Ans: Differences are:<br>
+-Top down approach begins with high level design and ends with low level design or development. Whereas, bottom up approach begins with low level designs or development and ends with high level design.<br>
+-In top down approach , main() function is written first and all sub functions are called from main function. Whereas, bottom up approach, code is developed for modules and then these modules are integrated with main() function.<br><br>
+
+
+<b>7.What are the features of C language?</b><br><br>
+
+Ans: Features of C are:<br><br>
+-Reliability<br>
+-Interactivity<br>
+-Modularity.<br><br>
+
+<b>8.C language has been developed in which language?</b><br><br>
+
+Ans: C language has been developed using assembly level language.<br><br>
+<b>9.Which level is C language belonging to?</b><br><br>
+
+Ans: C language is belonging to middle level language. C language behaves as a bridge between machine level language and high level languages.<br><br>
+
+<b>10. What do you mean by High level, Middle level and Low level languages and give an examples for each</b><br><br>
+
+Ans: High level language:<br>
+These level languages provide almost  everything that the programmers might need to do as already build into the language.<br><br>
+Eg: Java, Python.<br>
+Middle level language:<br>
+These languages don’t provide all the built-in functions found in high level languages, but provide all building blocks that we need to produce the result we want.<br>
+Eg: C, C++.<br><br>
+
+Low Level language:<br>
+These languages provide nothing than access to the machine’s basic instruction set.<br>
+Eg: Assembly language.<br><br>
+
+<b>11. What is embedded C?</b><br><br>
+
+Ans: Embedded C is the extension of C programming language. Embedded C is used to develop micro controller based applications. It includes features that are not available in normal C like fixed-point arithmetic, named address spaces.<br><br>
+
+<b>12. What is Compiler?</b><br><br>
+
+Ans: Compiler is a program that converts human readable code into machine readable code. This process is called Compilation.<br><br>
+
+<b>13. What is the difference between Structured oriented and Object oriented programming language?</b><br><br>
+
+Ans: Structured oriented programming language:<br>
+ In this type of programming language, large programs are divided into small programs called functions.<br>
+Prime focus is on functions and procedures that operate on data.<br>
+Program structure follows Top Down Approach.<br>
+Eg: C, Pascal.<br><br>
+Object oriented programming language:<br>
+In this type of language, programs are divided into objects.<br>
+Prime focus is on the data that is being operated and not on the functions or procedures.<br>
+Program structure follows Bottom Up Approach.<br>
+Eg: C++, Java.<br><br>
+
+<b>14.What is printf()?</b><br><br>
+
+
+Ans: printf() is an inbuilt library function in C that is available in C library by default. This function is declared and released macros are defined in stdio.h header file and it is used to print the character, string, float, integer, octal, hexadecimal values onto the output screen.<br><br>
+
+<b>15.What is meaning of NULL?</b><br><br>
+
+Ans:NULL is macro constant which has been defined in the heard file stdio.h, alloc.h, mem.h, stddef.h and stdlib.h as
+#define NULL 0<br><br>
+
+<b>16.What is scanf()?</b><br><br>
+
+Ans: scanf() function is an inbuilt library function in C which is available in C library by default. This function is declared and related macros are defined in stdio.h header file and it is used to read character, string, numeric data from keyboard.<br><br>
+
+<b>17.What is IDE?</b><br><br>
+ns: IDE is nothing but Integrated Development Environment. IDE is a tool that provides user interface with compilers to create, compile and execute C programs.
+Eg: Turbo C++, DevC++.<br><br>
+
+<b>18.What is header file in C language?</b><br><br>
+
+Ans: Header file is a file that contains function declaration and macros definition for C inbuilt library functions. All C standard library functions are declared in many header files which are saved as file_name.h. These header file are included in program using #include.<br><br>
+
+
+<b>19.What is data type in C?</b><br><br>
+
+Ans: Data types in C language are defined as the data storage format that a variable can store a data to perform a specific operation.<br><br>
+
+<b>20.What is Macros? Why do we use Macros?</b><br><br>
+
+Ans: Micro is a name which is given to a value or to a piece of code/block in a program. Instead of using the value, we can use macro which will replace the value in a program.<br>
+The reason for using macro is, consider below example: You are using a person’s age as 80 in many places in your program. If you use direct value in all the program, it is very difficult to change the age value in future if you want to change the value to 60. If you use macros in your program, it is very easy to replace the value and we can change in only one place which will change the value in all places in your program.<br>
+Syntax: #define MACRO_NAME Value.<br>
+Eg: #define AGE 50.<br><br>
+
+<b>21. Can include files be nested?</b><br><br>
+
+Ans: Yes.<br><br>
+
+
+<b>22.What is the use of sizeof() function in C?</b><br><br>
+
+Ans: Yes.<br><br>
+
+
+<b>23.What is modifier in C?</b><br><br>
+
+Ans: The amount of memory space to be allocated for a variable is derived by modifiers. Modifiers are prefixed with basic data types to modify the amount of storage space allocated to a variable.<br>
+Eg: Storage space for int can be increased to 8 bytes by using long int.<br><br>
+
+<b>24.What enum in C?</b><br><br>
+
+Ans: Enumeration is a data type that consists of named integer constants a s a list. It starts with 0 by default and value is incremented by 1 for the sequential identifiers in the list.<br><br>
+
+<b>25.What is token in C?</b><br><br>
+
+Ans: C tokens are the basic building blocks in C language which are constructed together to write a C program. Each and every smallest individual unit in a C program are known as C tokens.<br><br>
+
+<b>26.What is void in C?</b><br><br>
+
+Ans: Void is an empty data type that has no value.<br><br>
+
+<b>27.what is a keyword?</b><br><br>
+
+Ans: Keywords are the pre-defined words in a C compiler. Each keyword is meant to perform a specific function in a C program and keyword word should not be used as variable name.<br>
+Eg: int, break, else, long etc.<br><br>
+
+ <b>28.What is identifier in C?</b><br><br>
+
+Ans: Each program elements in a C program are given a name called identifiers. Names given to identify variables, functions and arrays are some of the examples for identifiers.<br><br>
+
+<b>29.What is Constant in C?</b><br><br>
+
+Ans: Constants refer to fixed values and these values cannot be modified by the program once they are defined.<br><br>
+
+<b>30.What is variable in C?</b><br><br>
+
+Ans: C variable is a named location in a memory where a program can manipulated the data. This location is used to hold the value of the variable. The value assigned to the variable can be changed.<br><br>
+
+
+<b>31.What is Local variable?</b><br><br>
+
+Ans: The variables which are having scope within the function are called Local variables. These variables are declared within the function and can’t be accessed outside the function.<br><br>
+
+<b>32.What is Global variable in C?</b><br><br>
+
+Ans: The variables which are having scope throughout the program are called Global variables. Global variables is defined outside the main function.<br><br>
+
+<b>33.What is operator in C?</b><br><br>
+
+Ans: The symbols which are used to perform logical and mathematical operation is called Opeartors. These C operators join individual constants and variables to form expressions.<br><br>
+
+<b>34. What is the syntax for ternary operator in C?</b><br><br>
+
+Ans: Ternary operator is same as if else control statement in C.<br>
+Syntax: (Condition?true_value:false_value);<br><br>
+
+<b>35. What is Arithmetic operator in C?</b><br><br>
+
+Ans: C Arithmetic operators are used to perform mathematical calculations. Operators are +, -, *, /, %.<br><br>
+
+<b>36.What is Assignment operator in C?</b><br><br>
+
+Ans: Assignment operator are used to assign the values to the variables. Operators are =,+=, -=, /=, %= etc.<br><br>
+
+
+<b>37.What is the logical operators in C?</b><br><br>
+
+Ans: Assignment operator are used to assign the values to the variables. Operators are =,+=, -=, /=, %= etc.<br><br>
+
+Ans: Logical operators are used to perform logical operations on the given expressions. Operators are logical AND,logical OR(||), logical NOT(!).<br><br>
+
+<b>38.What is Relational operator?</b><br><br>
+
+Ans: Relational operators are used to find the relation between two variables. i.e. to compare the value of two variables in a program.<br><br>
+
+<b>39.What are all Decision control statements in C?</b><br><br>
+
+Ans: Decision statement in C are:<br>
+-if statement<br>
+-if else statement<br>
+-nested if statement.<br><br>
+
+
+<b>40.What is the bitwise operator in C?</b><br><br>
+
+
+Ans: Bitwise operators are used to perform bit operations. Decimals values are converted into binary values which are the sequence of bits and bitwise operator work on these bits. Operators are bitwise AND, bitwise OR, XOR(^), left shift, right shift.<br><br>
+
+<b>41.What are all Loop control statement in C?</b><br><br>
+
+Ans: Loop control statements in C are used to perform looping operations until the given condition is true. Control comes out of the loop statements once condition becomes false.<br>
+ There are 3 types of loop control statements in C language, they are:<br>
+-for<br>
+-while<br>
+-do-while.<br><br>
+
+
+<b>42.What is the difference between ‘=’ and ‘==’ operator?</b><br><br>
+
+Ans: Single equal is an assignment operator used to assign the values to the variables. But, double equal is relational operator used to compare two variables values whether they are equal  or not.<br><br>
+
+<b>43.What is the difference between Pre increment operator and Post increment operator?</b><br><br>
+
+Ans: Pre increment operator is used to increment variable value by 1 before assigning the value to the variable. Post increment operator is used to increment variable value by 1 after assigning the value to the variable.<br><br>
+
+
+<b>44.What is the difference between while and do-while loops in C?</b><br><br>
+
+Ans: While loop is executed only when given condition is true. Whereas, do-while  loop is executed for first time irrespective of the condition. In while loop condition is checked first and then the code is executed, but in do-while code is executed first and then the condition is checked.<br><br>
+
+<b>45.What will happen if break statement is not used in switch case in C?</b><br><br>
+
+Ans: Switch case statements are used to execute only specific case statements based on the switch expression. If we do not use break statement at the end of each switch case, program will execute all consecutive case statements until it finds next break statement or till the end of switch case block.<br><br>
+
+<b>46.Why is default statement used in switch case in C?</b><br><br>
+
+Ans: Switch case statements are used to execute only specific case statements based on the switch expression. If we do not use break statement at the end of each switch case, program will execute all consecutive case statements until it finds next break statement or till the end of switch case block.<br><br>
+
+
+<b>47. What is the use of goto statement? </b><br><br>
+
+Ans: goto statement is used to transfer the normal flow of a program to the specified label in the program.<br><br>
+
+<b>48. What is the difference between auto variable and static variable in C?</b><br><br>
+
+
+Ans: Both auto and static variable are local variables. Static variables can retain the value of the variable between different function calls. But scope of auto variable is within the function only. It can’t retain the value of the variable between different function calls.<br><br>
+
+<b>49. Where should type cast function not be used in C?</b><br><br>
+
+Ans: Type cast function should not be used in const and volatile declaration. Because, constant value can’t be modified by the program once they are defined. And, volatile variable values might keep on changing without any explicit assignment by the program as operating system will be modifying these values.<br><br>
+
+
+<b>50.How many arguments can be passed to a function in C?</b><br><br>
+
+Ans: Any number of arguments can be passed to a function.<br><br>
+
+<b>51.What is exit() function in C?</b><br><br>
+
+Ans: exit() function terminates the program/process normally and returns the status code to the parent program/process.
+Syntax: void exit(int status)   <br><br>
+
+<b>52.Define pointer.</b><br><br>
+
+Ans: Pointers are special type of variables that are used to store the memory address of other variables.<br><br>
+
+<b>53.What is dangling pointer in c?</b> <br><br>
+
+Ans:If any pointer is pointing the memory address of any variable but after some variable has deleted from that memory location while pointer is still pointing such memory location. Such pointer is known as dangling pointer and this problem is known as dangling pointer problem.<br><br>
+
+<b>54.What is wild pointer in c? </b> <br><br>
+
+Ans:A pointer in c which has not been initialized is known as wild pointer.<br><br>
+
+<b>55.What are merits and demerits of array in c?</b><br><br>
+
+Ans:Merits:<br>
+
+(a) We can easily access each element of array.<br>
+(b) Not necessity to declare too many variables.<br>
+(c) Array elements are stored in continuous memory location.<br><br>
+
+Demerit:<br>
+
+(a) Wastage of memory space. We cannot change size of array at the run time.<br>
+(b) It can store only similar type of data.<br><br>
+
+
+<b>56.Write a c program to print Hello world without using any semicolon.</b><br><br>
+
+Ans:Solution: 1<br>
+void main(){<br>
+    if(printf("Hello world")){<br>
+    }<br>
+}<br><br>
+
+Solution: 2<br><br>
+void main(){<br>
+\t\t\t\t\t\t    while(!printf("Hello world")){<br>
+\t\t\t\t\t    }<br>
+}<br><br>
+
+
+<b>57.Swap two variables without using third variable.</b><br><br>
+
+Ans:#include<stdio.h><br><br>
+int main(){<br><br>
+\t\t\t    int a=5,b=10;
+//solution  one<br><br>
+\t\t\t    a=b+a;<br>
+\t\t\t    b=a-b;<br>
+\t\t\t    a=a-b;<br>
+\t\t\t  printf("a= %d  b=  %d",a,b);<br><br>
+
+//solution two<br>
+\t\t\t    a=5;<br>
+\t\t\t    b=10;<br>
+\t\t\t    a=a+b-(b=a);<br>
+\t\t\t    printf("<br>a= %d  b=  %d",a,b);<br>
+//solution three<br>
+\t\t\t    a=5;<br>
+\t\t\t    b=10;<br>
+\t\t\t    a=a^b;<br>
+\t\t\t    b=a^b;<br>
+\t\t\t    a=b^a;<br>
+\t\t\t    printf("<br>a= %d  b=  %d",a,b);<br><br>
+
+
+<b>58.What is size of void pointer?</b><br><br>
+
+
+Ans:Size of any type of pointer in c is independent of data type which is pointer is pointing i.e. size of all type of pointer (near) in c is two byte either it is char pointer, double pointer, function pointer or null pointer.  Void pointer is not exception of this rule and size of void pointer is also two byte.<br><br>
+
+<b>59.What is difference between uninitialized pointer and null pointer?</b><br><br>
+
+Ans:An uninitialized pointer is a pointer which points unknown memory location while null pointer is pointer which points a null value or base address of segment.<br><br>
+
+<b>60.What is the far pointer in c?</b><br><br>
+
+Ans:The pointer which can point or access whole the residence memory of RAM i.e. which can access all 16 segments is known as far pointer.<br>
+
+Size of far pointer is 4 byte or 32 bit.<br><br>
+
+<b>61.What is array of pointers in c?</b><br><br>
+
+Ans:Array whose content is address of another variable is known as array pointers.<br><br>
+
+<b>62.What is pointer to array of character in c?</b><br><br>
+
+Ans:A pointer to such an array which contents is character constants is known as pointer to array of character constant.<br><br>
+
+<b>63.What is data segment in c?</b><br><br>
+
+Ans:All the segments are used for specific purpose. Like segment number 15 is used for ROM, segment number 14 is used for BIOS etc.<br><br>
+
+<b>64.What is a multilevel pointer in c?</b><br><br>
+
+Ans:A pointer is pointer to another pointer which can be pointer to others pointers and so on is known as multilevel pointers.<br><br>
+
+<b>65.Differentiate Source Codes from Object Codes?</b><br><br>
+
+Ans:Source codes are codes that were written by the programmer. It is made up of the commands and other English-like keywords that are supposed to instruct the computer what to do. However, computers would not be able to understand source codes. Therefore, source codes are compiled using a compiler. The resulting outputs are object codes, which are in a format that can be understood by the computer processor. In C programming, source codes are saved with the file extension .C, while object codes are saved with the file extension .OBJ<br><br>
+
+<b>66.What are compound statements?</b><br><br>
+
+Ans:Compound statements are made up of two or more program statements that are executed together. This usually occurs while handling conditions wherein a series of statements are executed when a TRUE or FALSE is evaluated. Compound statements can also be executed within a loop. Curly brackets { } are placed before and after compound statements.<br><br>
+
+<b>67.What is debugging?</b><br><br>
+
+Ans:Debugging is the process of identifying errors within a program. During program compilation, errors that are found will stop the program from executing completely. At this state, the programmer would look into the possible portions where the error occurred. Debugging ensures the removal of errors, and plays an important role in ensuring that the expected program output is met.<br><br>
+
+<b>68. What are the different types of control structures in programming?</b><br><br>
+
+Ans:There are 3 main control structures in programming: Sequence, Selection and Repetition. Sequential control follows a top to bottom flow in executing a program, such that step 1 is first perform, followed by step 2, all the way until the last step is performed. Selection deals with conditional statements, which mean codes are executed depending on the evaluation of conditions as being TRUE or FALSE. This also means that not all codes may be executed, and there are alternative flows within. Repetitions are also known as loop structures, and will repeat one or two program statements set by a counter.<br><br>
+
+<b>69.how will you override an existing macro in c?</b><br><br>
+
+Ans:To override an existing macro, we need to undefine existing macro using “#undef”. Then, we need to define same macro again with new value.<br><br>
+
+<b>70.what is const pointer in c?</b><br><br>
+
+Ans:Const pointer is a pointer that can’t change the address of the variable that is pointing to.<br>
+Once const pointer is made to point one variable, we can’t change this pointer to point to any other variable. This pointer is called const pointer.<br><br>
+
+<b>71.What is a Null Pointer in C?</b><br><br>
+
+Ans:Literal meaning of NULL pointer is a pointer which is pointing to nothing. NULL pointer points the base address of segment.<br>
+
+Examples of NULL pointer:<br><br>
+
+1. int *ptr=(char *)0;<br>
+2. float *ptr=(float *)0;<br><br></p>]]>
+
+</string>
+    
+    <string name="cpp" formatted="false">
+
+
+<![CDATA[<p><b>1.What is a Class?</b><br><br>
+
+Ans: Class is a blue print which reflects the entities attributes and actions.<br>
+Technically defining a Class is designing a user defined data type<br><br>
+
+<b>2.What is an Object?</b><br><br>
+
+Ans: An instance of the class is called as Object.<br><br>
+
+<b>3.What is the full form of OOPS?</b><br><br>
+
+Ans: Object Oriented Programming System.<br><br>
+
+<b>4.List the types of inheritance supported in C++?</b><br><br>
+
+Ans: The types of inheritance supported in C++ are:<br>
+-Single<br>
+-Multilevel<br>
+-Multiple<br>
+-Hierarchical<br>
+-Hybrid.<br><br>
+
+
+<b>5.What is Encapsulation?</b><br><br>
+
+Ans: The process of binding the data and functions acting on the data together in an entity (class) is called an Encapsulation.<br><br>
+
+<b>6.What is Inheritance?</b><br><br>
+
+Ans: Inheritance is the process of acquiring the properties of the existing class into the new class.<br>
+The existing class is called as base/parent class and the inherited class is called as derived/child class.<br><br>
+
+<b>7.Explain the purpose of the keyword Volatile?</b><br><br>
+
+Ans: Declaring a variable as Volatile directs the compiler that the variable can be changed externally. Hence avoiding compiler optimization on the variable reference.<br><br>
+
+
+<b>8.What is a Storage class?</b><br><br>
+
+Ans: Storage class specifies the life or scope of symbols such as variable or functions.<br><br>
+
+<b>9.Mention the Storage classes names in C++?</b><br><br>
+
+Ans: The following are Storage classes supported in C++:<br><br>
+-auto<br>
+-static<br>
+-extern<br>
+-register<br>
+-mutable<br><br>
+
+<b>10.What is the role of mutable storage class specifier?</b><br><br>
+
+Ans: A constant class object’s member variable can be altered by declaring it using mutable storage class specifier. Applicable only for non-static and non-constant member variable of the class.<br><br>
+
+
+<b>11.What is Pure virtual function?</b><br><br>
+
+Ans: A virtual function with no function body and assigned with a value zero is called as Pure virtual function.<br><br>
+
+<b>12.What is an Abstract class in C++?</b><br><br>
+
+Ans: A class with at least one pure virtual function is called as Abstract class. We cannot instantiate an Abstract class.<br><br>
+
+<b>13.What is a Reference variable in C++?</b><br><br>
+
+Ans: A Reference variable is an alias name for the existing variable. Which means both the variable points to the same memory location.<br><br>
+
+<b>14.What is role of Static keyword on class member variable?</b><br><br>
+
+Ans: A Static variable does exist before the class objects comes into existence. A static member variable share a common memory across all the objects created for the respective class. A static member variable can be referred using class name itself. <br><br>
+
+<b>15.Name the data type which can be used to store wide character in C++?</b><br><br>
+
+Ans: wchar_t.<br><br>
+
+<b>16.Define Overriding.</b><br><br>
+
+Ans: If more than 2 methods have same name but different parameters is called as Overriding.<br><br>
+
+
+<b>17.What are operators used to access the class members?</b><br><br>
+
+Ans: Dot(.) and Arrow(->).<br><br>
+
+<b>18.What is the data type to store the Boolean value?</b><br><br>
+
+Ans: bool, is the new primitive data type introduced in C++ language.<br><br>
+
+<b>19.Do we have a String primitive data type in C++?</b><br><br>
+
+Ans: No, it’s a class from Standard Template Library.<br><br>
+
+<b>20.Which access specifier can help to achieve data hiding in C++?</b><br><br>
+
+Ans: Private and Protected.<br><br>
+
+<b>21.What is a Constructor?</b><br><br>
+
+
+Ans: A Constructor is the special method of the class that has the same name as that of the class, which initializes the objects of the class.<br><br>
+
+<b>22.What is a Destructor?Can it be Overloaded?</b><br><br>
+
+
+Ans: A Destructor is the special method of the class which is having the same name as the class name and prefixed with tilde (~) symbol. It gets executed automatically with respect to the object as soon as the object losses its  scope.<br>
+It cannot be Overloaded and the only form is without the parameters.<br><br>
+
+<b>23.What is a Default constructor?</b><br><br>
+
+Ans: Every class does have a constructor provided by the compiler if the programmer does not provides one and known as Default constructor.<br><br>
+
+
+<b>24.Which operator can be used to allocate Dynamic memory?</b><br><br>
+
+
+Ans: ‘new’ is the operator that can be used for the same.<br><br>
+
+
+<b>25.What is the purpose of Delete operator?</b><br><br>
+
+Ans: ‘Delete’ operator is used to release the dynamic memory which was created using ‘new’ operator.<br><br>
+
+<b>26.What is a Copy constructor?</b><br><br>
+
+Ans: A Copy constructor is the constructor which takes same class object reference as the parameter.<br><br>
+
+<b>27.Does C++ supports exception handling?If so what are the keywords involved in achieving the same.</b><br><br>
+
+Ans: C++ does supports exception handling. Try, catch and throw are keyword used for the same.<br><br>
+
+<b>28.What is the difference between the keywords  Struct and Class in C++?</b><br><br>
+
+
+Ans: By default the members of the struct are public and by default the member of the class are private.<br><br>
+
+<b>29.What do you mean by C++ access specifiers?</b><br><br>
+
+Ans: Access specifiers are used to define how the members can be accessed outside the class. There are 3 access specifiers defined which are public, private and protected.<br><br>
+
+<b>30.What does the Private access specifier specifies?</b><br><br>
+
+Ans: Member declared as Private are accessible only within the same class and they cannot be accessed outside the class they are declared.<br><br>
+
+
+<b>31.What does the Public access specifier specifies?</b><br><br>
+
+
+Ans: Members declared as Public are accessible from any where within the program.<br><br>
+
+<b>32.What does the Protected access specifier specifies?</b><br><br>
+
+Ans: Members declared as protected can not be accessed from outside the class except a child class.<br><br>
+
+<b>33.What are Command line arguments?</b><br><br>
+
+Ans: The arguments which are sent to the main() function while executing from the command line.<br><br>
+
+
+<b>34.What is  a Static variable?</b><br><br>
+
+Ans: A Static local variables retains its value between the function call and the default value is 0.<br><br>
+
+<b>35.What is the purpose of extern storage specifier?</b><br><br>
+
+Ans: It is used to resolve the scope of global symbol.<br><br>
+
+<b>36.What do you mean by Base address of the array?</b><br><br>
+
+Ans: The starting address of the array is called as the Base address of the array.<br><br>
+
+<b>37.When should we use the Register storage specifier?</b><br><br>
+
+Ans: If a variable is used more frequently than it should be declared using register storage specifier, then possibly the compiler gives CPU register for its storage to speed up the look up of the variable.<br><br>
+
+
+<b>38.Where a Automatic variable is stored?</b><br><br>
+
+Ans: Every local variable by default being an Auto variable is stored in Stack memory.<br><br>
+
+<b>39.What is a Container class?</b><br><br>
+
+Ans: A class containing at least one member variable of another class type is called as Container class.<br><br>
+
+<b>40.What are the different ways of Passing parameter to the functions? Which to use when?</b><br><br>
+
+
+Ans: Call by value: We send only values to the function as parameters. We choose this if we do not want the actual parameters are to be modified with formal parameters but just used.<br>
+Call by address: We send  address of the actual instead of values. We choose this if we do not want the actual parameter to be modified with formal parameters.<br>
+Call by reference: The actual parameters are received with the C++ new reference variables as formal parameters. We choose this if we do want the actual parameters to be modified with the formal parameter.<br><br>
+
+<b>41.What is a Friend function?</b><br><br>
+
+Ans: A function which is not a member of the class but still can access all the member of the class is called Friend function.<br><br>
+
+<b>42.Explain Pointer-this?</b><br><br>
+
+Ans: This is the pointer variable of the compiler which always holds the current active objects address.<br><br>
+
+<b>43.What is the Namespace?</b><br><br>
+
+Ans: A Namespace is the logical division of the code which can be used to resolve the name conflict of the identifiers by placing them under different Namespace.<br><br>
+
+<b>44.How to handle a Constructor that fails?</b><br><br>
+
+Ans: throw an exception. Constructor do not have a return type, so it is not possible to use return codes, so it better to throw an exception.<br><br>
+
+<b>45.What a derived class can add?</b><br><br>
+
+Ans: Derived class can add:<br>
+-New data members<br>
+-New member functions<br>
+-New constructors<br>
+-Destructor<br>
+-New friends.<br><br>
+
+<b>46.What is a Dangling pointer?</b><br><br>
+
+Ans: A Dangling pointer arises when you use the address of an object after its lifetime is over.<br><br>
+
+<b>47.What is the difference between a Pointer and a Reference?</b><br><br>
+
+
+Ans: A Reference must always refer to some object and, therefore must always be initialized; Pointers do not have such restrictions. A pointer can be reassigned to point to different objects while a reference always refers to an object with which it was initialized.<br><br>
+
+
+<b>48.Explain the benefits of proper Inheritance?</b><br><br>
+
+Ans: The biggest benefits of proper Inheritance are:<br><br>
+-Substituability<br>
+-Extensibility.<br><br>
+
+<b>49.What are the advantages of using Friend classes?</b><br><br>
+
+Ans: -Friend classes are useful when a class wants to hide features from users which are needed only by another, tightly coupled class.
+-Implementation details can be kept safe by providing friend status to a tightly cohesive class.<br><br>
+
+
+<b>50.What do you mean by persistent and non-persistent objects?</b><br><br>
+
+Ans: Persistent objects are the one which we can be Serialized and written to disk, or any other stream.<br>
+ Objects that can be serialized are called non-persistent objects. <br><br>
+
+<b>51.How to link a C++ program to C functions. How would you do it?</b><br>
+
+Ans: This can be done by using the extern C linkage specification around the C function declaration.<br><br>
+
+<b>52.What is Memory Leak?</b><br><br>
+
+Ans: Memory which has no pointer pointing to it and there is no way to delete or reuse this memory, it causes Memory leak.<br><br>
+
+<b>53.What is virtual inheritance?</b><br><br>
+
+Ans:Virtual inheritance facilitates you to create only one copy of each object even if the object appears more than one in the hierarchy.<br><br>
+
+<b>54.Explain this pointer?</b><br><br>
+
+This pointer holds the address of current object.<br><br>
+
+<b>55.What is the difference between delete and delete[]?</b><br><br>
+
+Delete [] is used to release the array of allocated memory which was allocated using new[] whereas delete is used to release one chunk of memory which was allocated using new.<br><br></p>
+]]>
+
+
+</string>
+    <string name="title_activity_non__technical__interview">Non-Technical</string>
+    <string name="networks">
+
+
+
+<![CDATA[<p><b>1.What do you mean by data communication?</b><br><br>
+
+Ans: It is the exchange of data between two devices via some form of transmission medium such as wire cable.<br><br>
+
+<b>2.Define Network.</b><br><br>
+
+Ans: A Network is a set of devices connected by physical media links.<br><br>
+
+<b>3.What is a Node?</b><br><br>
+
+Ans: In communication networks, a node is a connection point, or a redistribution point, or a communication endpoint. The definition  of a node depends on the network and protocol layer referred to.<br><br>
+
+
+<b>4.What is a Link?</b><br><br>
+
+Ans: At the lowest level –a network can consist of two or more computers directly connected by some physical medium such as coaxial cable or optical fiber. Such a physical medium is called as link.<br><br>
+
+<b>5.What is point-to-point link?</b><br><br>
+
+Ans: It provides a dedicated link between two devices. The entire capacity of the link is reserved for transmission between the two devices.<br>
+Eg: Link between TV control system and remote control system.<br><br>
+
+
+<b>6.What is multipoint connection?</b><br><br>
+
+Ans: In Multipoint connection more than two specific devices share a single link. Here the capacity of the channel is shared either separately or temporally.<br><br>
+
+
+<b>7.What is a Gateway or Router?</b><br><br>
+
+Ans: A node that is connected to two or more networks is commonly called as Router or Gateway.<br><br>
+
+<b>8.Name the factors that affect the performance of the Network.</b><br><br>
+
+Ans: Factors that affect the performance of Network are:<br><br>
+-Number of users\n<br>
+-Type of transmission medium\n<br>
+-Hardware\n<br>
+-Software.<br><br>
+
+<b>9.What is Protocol?</b><br><br>
+
+Ans: A Protocol is a set of rules that govern all aspects of information communication.<br><br>
+
+
+<b>10.What are the key elements of Protocol?</b><br><br>
+
+Ans: The key elements of Protocols are:<br><br>
+-Syntax: It refers to the structure of format of the data, that is the order in which they are presented.\n<br><br>
+-Semantics: It refers to the meaning of each section of bits.\n<br><br>
+-Timing: Timing refers to two characteristics-When data should be sent and how fast they can be sent.<br><br>
+
+<b>11.What are the advantages of Distributed Processing?</b><br><br>
+
+Ans: Advantages of Distributed Processing are:<br>
+-Security/Encapsulation\n<br>
+-Distributed Database\n<br>
+-Faster problem solving.\n<br>
+-Collaborative Processing<br><br>
+
+<b>12.Define Bandwidth and Latency.</b><br><br>
+
+Ans: Bandwidth: The range of frequencies that a medium can pass is called Bandwidth. It is the difference between the highest and lowest frequencies that the medium can satisfactorily pass.<br><br>
+ Latency: Latency corresponds to how much long it takes a message to travel from one end off a network to the other. It is strictly measured in terms of time.<br><br>
+
+<b>13.What are the different modes of Communication?</b><br><br>
+
+Ans: -Simplex\n<br>
+-Half Duplex\n<br>
+-Full Duplex.<br><br>
+
+
+<b>14.What is Simplex?</b><br><br>
+
+Ans: It is the mode of communication between two devices in which flow of data is unidirectional. i.e. one can transmit and the other can receive.<br>
+Eg: Keyboard.<br><br>
+
+<b>15.What is Half-Duplex?</b><br><br>
+
+Ans: It is the mode of communication between two devices in which flow of data is bi-directional but not at the same time.\n<br>
+Eg: Walkie-talkie.<br><br>
+
+<b>16.What is Full-Duplex?</b><br><br>
+
+Ans: It is the mode of communication between two devices in which flow of data is bi-direction and it occurs simultaneously.\n<br>
+Eg: Telephone.<br><br>
+
+
+<b>17.What is Topology?</b><br><br>
+
+Ans: A Topology is the pattern in which nodes are connected to the network via links. Four basic topologies are Star, Bus, Ring and Mesh.<br><br>
+
+<b>18.What do you mean by Star topology?</b><br><br>
+
+Ans: In Star topology, each device has a dedicated point to point link only to a central controller called hub.<br><br>
+
+<b>19.Define Bus and Ring topology?</b><br><br>
+
+Ans: Bus: It is multipoint. One long cable acts as a backbone to link all the devices in the network.\n<br>
+ Ring: Here each device has a dedicated point to point connection only with the two devices on either side of it.<br><br>
+
+
+<b>20.What do you mean by Mesh topology?</b><br><br>
+
+Ans: In Mesh topology, every device has a dedicated point to point link to every other device.<br><br>
+
+<b>21.Define LAN, MAN, and WAN.</b><br><br>
+
+Ans: LAN- Local Area Network is a privately owned and links the devices in a single office, building or campus. It allows resources to be shared between personal computers and work station.\n<br>
+-MAN-Metropolitan Area Network spreads over an entire city.\n<br>
+-WAN-Wide Area Network provides long distance transmission of data, voice, image and video information over large geographical areas that comprises a country, a continent or even whole world.<br><br>
+
+<b>22.Compare Analog and Digital signals?</b><br><br>
+
+
+
+Ans: Analog signals can have an infinite number of values in a range but Digital signals can have only a limited number of values.<br><br>
+
+<b>23.Define Routing.</b><br><br>
+
+Ans: The process of determining systematically how to forward message towards the destination nodes based on its address is called Routing.<br><br>
+
+<b>24.What is Round Trip Time</b><br><br>
+
+Ans: The duration of time it takes to send a message from one end of a network to the other and back is called RTT.<br><br>
+
+ <b>25.List the layers of OSI model.</b><br><br>
+
+Ans:-Physical Layer<br><br>
+-Data Link Layer.\n<br>
+-Network Layer\n<br>
+-Transport Layer\n<br>
+-Session Layer\n<br>
+-Presentation Layer\n<br>
+-Application Layer.<br><br>
+
+<b>26.What are the responsibilities of Physical Layer?</b><br><br>
+
+Ans: Responsibility of Physical Layer are:<br><br>
+ -To transmit a bit stream over a physical medium.\n<br>
+-Encoding and signaling\n<br>
+-Data transmission and Reception.<br><br>
+
+<b>27.What are the responsibilities of Data Link Layer?</b><br><br>
+
+Ans: Responsibilities of Data Link Layer are:<br><br>
+-It provides error free transfer of data frames from one node to another over the physical layer.\n<br>
+-Framing\n<br>
+-Flow Control\n<br>
+-Error Control\n<br>
+-Physical Addressing.<br><br>
+
+<b>28.What are the responsibilities of Network Layer?</b><br><br>
+
+Ans: Responsibilities of Network Layer are:\n<br>
+-This layer is concerned with routing.\n<br>
+-Priority of Service\n<br>
+-Logical Addressing.<br><br>
+
+<b>29.What are the responsibilities of Transport Layer?</b><br><br>
+
+Ans: Responsibilities of Transport Layer are:<br><br>
+-It ensures that message are delivered  error-free in sequence and with no looses or duplication.\n<br>
+-Flow Control\n<br><br>
+-Error Control.<br><br>
+
+<b>30.What are the responsibilities of Session Layer?</b><br><br>
+
+
+Ans: Responsibilities of Session Layer are:<br>
+-Session Layer is the network dialog controller.\n<br>
+-It establishes, maintains and synchronizes the interaction between the communicating systems.\n<br>
+-Dialog Control\n<br>
+-Synchronization.<br><br>
+
+<b>31.What are the responsibilities of Presentation Layer?</b><br><br>
+
+Ans: Responsibilities of Presentation Layer are:\n<br>
+-It is concerned with the syntax and semantics of the information exchanged between two systems.\n<br>
+-Translation.\n<br>
+-Encryption.<br><br>
+
+
+<b>32.What are the responsibilities of Application Layer?</b><br><br>
+
+
+Ans: Responsibilities of Application Layer are:<br><br>
+-It enables the user to access the network.<br><br>
+-It provides user interface.<br><br>
+
+<b>33.What are the types of Error in network?</b><br><br>
+
+Ans: -Single Bit Error: Here only one bit in the data unit has changed.\n<br><br>
+-Burst Error: Here two or more bits in the data have changed.<br><br>
+
+<b>34.What do you mean by Redundancy?</b><br><br>
+
+Ans: Redundancy is the concept of Sending extra bits for detecting errors at the destination.<br><br>
+
+
+<b>35.Name the Error Detecting methods in Network?</b><br><br>
+
+
+Ans: -Cyclic Redundancy Check(CRC)\n<br>
+-Vertical Redundancy Check (VRC).<br><br>
+
+<b>36.What is Checksum?</b><br><br>
+
+Ans: Checksum is used by the higher layer protocol for error detection.<br><br>
+
+<b>37.What is Forward Error Correction?</b><br><br>
+
+Ans: Forward Error Correction is the process in which the receiver tries to guess the message by using redundant bits.<br><br>
+
+<b>38.Define Byte Stuffing and Bit Stuffing?</b><br><br>
+
+
+Ans: Byte Stuffing: Here a special byte is added to the data section of the frame when there is a character with the same pattern as the flag. This byte is usually called the escape character (ESC) which has a predefined pattern.<br><br>
+
+Bit Stuffing: It is the process of adding one extra 0 whenever five consecutive 1’s follow a 0 in the data. So that the receiver does not mistake the pattern 0111110 as flag.<br><br>
+
+
+<b>39.What is Pipelining?</b><br><br>
+
+Ans: In networking a task is often begun before the previous task has ended, this known has Pipelining.<br><br>
+
+<b>40.What is MAC address?</b><br><br>
+
+Ans: MAC-Media Access Control, it is address for device as it is identified at the MAC layer in the network architecture.<br><br>
+
+
+<b>41.What is IP address?</b><br><br>
+
+Ans: IP address is the 32-bit (or 128-bit) that is uniquely and universally defines a host or router on the internet.<br><br>
+
+<b>42.What is ICMP?</b><br><br>
+
+Ans: ICMP-Internet Control Message Protocol, a network layer protocol of TCP/IP suite used by hosts and gateways to send notification of datagram problems back to the sender.<br><br>
+
+<b>43.What are the Protocols present in the Transport layer?</b><br><br>
+
+Ans: TCP, UDP.</b><br><br>
+
+<b>44.What are the Protocols present in the Application layer?</b><br><br>
+
+Ans: TELNET, FTP, SMTP, DNS.<br><br>
+
+
+<b>45.What do you mean by ARP?</b><br><br>
+
+Ans: ARP-Address Resolution Protocol is used to associate the 32-bit IP address with the 48-bit physical address used by a host or a router to find the physical address of another host on its network by sending a ARP query packet that includes the IP address of receiver.<br><br>
+
+<b>46.What do you mean RARP?</b><br><br>
+
+Ans: RARP-Reverse Address Resolution Protocol, it allows a host to discover its internet address when it knows only its physical address.<br><br>
+
+<b>47.What is Multicast routing?</b><br><br>
+
+Ans: Sending a message to a group is called Multicasting and its routing algorithm is called Multicasting routing.<br><br>
+
+
+<b>48.What is URL?</b><br><br>
+
+Ans: URL-Uniform Resource Locator is a standard for specifying any kind of information on the World Wide Web.<br><br>
+<b>49.What is TELNET?</b><br><br>
+
+Ans: TELNET is a client-server application that allows a user to log on to a remote machine, giving the user access to the network system.<br><br>
+
+
+<b>50.What do you mean by Remote login?</b><br><br>
+
+Ans: When a user wants to access an application program or utility located on a remote machine, he/she performs Remote login.<br><br>
+
+<b>51.What do you mean by Client-Server model?</b><br><br>
+
+Ans: In Client-Server model, the client runs a program to request a service and the server runs a program to provide the requested service. These two programs communicate with each other.<br><br>
+
+<b>52.Define UDP.</b><br><br>
+
+Ans: UDP-User Datagram Protocol is used to send short messages called datagram’s but overall, it is an unreliable, connectionless protocol.<br><br>
+
+<b>53.Define TCP.</b><br><br>
+Ans: It is connection oriented protocol. It delivers data without errors to the destination.<br><br>
+
+<b>54.Define IP.</b><br><br>
+
+Ans: Internet Protocol (IP)is the transmission mechanism used by TCP/IP protocol. It is an unreliable and connectionless datagram protocol. It provides no error checking and tracking.<br><br>
+
+<b>55.What is Firewall?</b><br><br>
+
+Ans:  A Firewall is a network security system designed to prevent unauthorized access to or from a private network.<br><br></p>]]>
+
+
+
+
+</string>
+
+    <string name="stacksdesc1"><![CDATA[
+  <p><p><h3><b>Stacks</b></h3>Stack is an abstract data type with a bounded(predefined) capacity. It is a simple data structure that allows adding and removing elements in a particular order. Every time an element is added, it goes on the top of the stack, the only element that can be removed is the element that was at the top of the stack, just like a pile of objects.
+Basic features of Stack</p>
+
+<b>Basic features of Stack</b><br><br>
+1. Stack is an ordered list of similar data type.<br>
+2. Stack is a LIFO structure. (Last in First out).<br>
+3. push() function is used to insert new elements into the Stack and pop() is used to delete an element from the stack. Both insertion and deletion are allowed at only one end of Stack called Top.<br>
+4. Stack is said to be in Overflow state when it is completely full and is said to be in Underflow state if it is completely empty.<br><br>
+
+<b>Applications of Stack</b><br><br>
+The simplest application of a stack is to reverse a word. You push a given word to stack - letter by letter - and then pop letters from the stack.<br>
+There are other uses also like : Parsing, Expression Conversion(Infix to Postfix, Postfix to Prefix etc) and many more. <br><br><br>
+
+<b>Implementation of Stack</b><br><br>
+Stack can be easily implemented using an Array or a Linked List. Arrays are quick, but are limited in size and Linked List requires overhead to allocate, link, unlink, and deallocate, but is not limited in size. Here we will implement Stack using array.<br><br></p>]]>
+
+    </string>
+
+    <string name="stackcode"><![CDATA[<p>/*  Below program is written in C++ language  */<br>
+
+Class Stack<br>
+{<br>
+\t\t\t\tint top;<br>
+\t\t\t\tpublic:<br>
+ \t\t\t\tint a[10];    //Maximum size of Stack<br>
+ \t\t\t\tStack()<br>
+ \t\t\t\t{<br>
+ \t\t\t\t\t\t\t\ttop = -1;<br>
+ \t\t\t\t}<br>
+};<br>
+
+void Stack::push(int x)<br>
+{<br>
+ \t\t\t\tif( top >= 10)<br>
+ \t\t\t\t{<br>
+ \t\t\t\t\t\t\t\tcout << "Stack Overflow";<br>
+ \t\t\t\t}<br>
+ \t\t\t\telse<br>
+ \t\t\t\t{<br>
+ \t\t\t\t\t\t\t\ta[++top] = x;<br>
+ \t\t\t\t\t\t\t\tcout << "Element Inserted";<br>
+ \t\t\t\t}<br>
+}<br>
+<br>
+int Stack::pop()<br>
+{<br>
+ \t\t\t\tif(top < 0)<br>
+ \t\t\t\t{<br>
+ \t\t\t\t\t\t\t\tcout << "Stack Underflow";<br>
+ \t\t\t\t\t\t\t\treturn 0;<br>
+ \t\t\t\t}<br>
+ \t\t\t\telse<br>
+ \t\t\t\t{<br>
+ \t\t\t\t\t\t\t\tint d = a[top--];<br>
+ \t\t\t\t\t\t\t\treturn d;<br>
+ \t\t\t\t}<br>
+}<br>
+<br>
+void Stack::isEmpty()<br>
+{<br>
+ \t\t\t\tif(top < 0)<br>
+ \t\t\t\t{<br>
+ \t\t\t\t\t\t\t\tcout << "Stack is empty";<br>
+ \t\t\t\t}<br>
+ \t\t\t\telse<br>
+ \t\t\t\t{<br>
+ \t\t\t\t\t\t\t\tcout << "Stack is not empty";<br>
+ \t\t\t\t}<br>
+}<br>
+<br><p>]]></string>
+
+    <string name="complexitystack"><![CDATA[<br><b>Analysis of Stacks</b><br>
+
+Below mentioned are the time complexities for various operations that can be performed on the Stack data structure.<br><br>
+
+<b>Push Operation </b>: O(1)<br>
+<b>Pop Operation</b> : O(1)<br>
+<b>Top Operation</b> : O(1)<br>
+<b>Search Operation</b> : O(n)<br>]]></string>
+    <string name="title_activity_stacks">Stacks</string>
+    <string name="title_activity_webview">Webview</string>
+    <string name="title_activity_placement_papers">Placement_papers</string>
+    <string name="title_activity_complexityplot">complexityplot</string>
+    <string name="title_activity_offline_placement_papers">Offline_placement_papers</string>
+    <string name="app_desc">Interview Byte is an android app which helps students to prepare for Interview with its language specific Interview questions,HR Interview questions,Group Discussion topics,company specific placement papers and tutorials on Algorithms and Data Structures and it is also a collection of  15+ education websites which helps you to prepare awesomely for interviews!!!</string>
+    <string name="title_activity_about__page">About_Page</string>
+
+
+</resources>
