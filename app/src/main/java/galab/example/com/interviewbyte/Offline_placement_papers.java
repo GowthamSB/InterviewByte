@@ -58,19 +58,17 @@ public class Offline_placement_papers extends AppCompatActivity {
 
 
         String[] listviewShortDescription = new String[]{
-                "Algorithms and datastructures tutorials","Technical Interview questioniare",
-                "GD topics and HR Interview questions","Subject wise and Company wise Placement papers","Algorithms and datastructures tutorials","Technical Interview questioniare",
-                "GD topics and HR Interview questions","Subject wise and Company wise Placement papers","Algorithms and datastructures tutorials","Technical Interview questioniare",
-                "GD topics and HR Interview questions","Subject wise and Company wise Placement papers","Algorithms and datastructures tutorial",
-                "GD topics and HR Interview questions","GD topics and HR Interview questions",
-                "GD topics and HR Interview questions",
-                "GD topics and HR Interview questions","GD topics and HR Interview questions",
-                "GD topics and HR Interview questions",
-                "GD topics and HR Interview questions","GD topics and HR Interview questions",
-                "GD topics and HR Interview questions",
-                "GD topics and HR Interview questions",
-                "GD topics and HR Interview questions",
-                "GD topics and HR Interview questions",
+                "IBM Placement Paper(aptitude and technical)","IBM Placement Paper(aptitude and technical)",
+                "IBM Placement Paper(aptitude and technical)","Oracle Placement Paper(aptitude and technical)",
+                "Oracle Placement Paper(aptitude and technical)", "Oracle Placement Paper(aptitude and technical)",
+                "Oracle Placement Paper(aptitude and technical)","Oracle Placement Paper(aptitude and technical)",
+                "Oracle Placement Paper(aptitude and technical)", "Oracle Database Interview Paper",
+                "L&T Infotech Aptitude Paper","Samsung Placement Paper(aptitude and technical)",
+                "Sony Placement Paper(aptitude and technical)","Sony Placement Paper(aptitude and technical)",
+                "Sony Placement Paper(aptitude and technical)",
+                "Unisys Placement Paper(aptitude and technical)","Unisys Placement Paper(aptitude and technical)",
+                "Trianz Placement Paper(aptitude and technical)",
+                "Mu-sigma Placement Paper(aptitude and technical)","Mu-sigma Placement Paper(aptitude and technical)",
 
         };
 
